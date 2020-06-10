@@ -96,6 +96,7 @@ li {
     font-size : 40px;
     color: white;
     text-align : center;
+    margin:20px 20px 20px;
     padding: 100% 20px;
     transition: all 0.5s;
 }
@@ -107,9 +108,9 @@ li {
 
 .grid {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    grid-auto-rows: 40px;
+    grid-auto-rows: 20px;
 }
 
 .item {
