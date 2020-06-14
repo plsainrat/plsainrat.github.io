@@ -1,192 +1,80 @@
-﻿
-
-
-body {
-    background-color: #333;
-    margin: 0px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.15em;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+﻿@font-face {
+    font-family: blckBrd;
+    src: url(BrownBagLunch.ttf);
 }
 
-ul{
-          list-style-type : none;
-          margin:0;
-          padding:0;
-          overflow:hidden;
-          background-color: #333;
-          position : sticky;
-          top:0;
-          width: 100%;
-          transition: filter 0.5s;
-          z-index: +1;
-          opacity : 0.25;
-          transition : all 0.5s;
-      }
-ul:hover{
-    opacity: 1;
+body
+{
+    width : 100%;
+    margin : 0 ;
 }
 
-li {
-    float: left;
-    
+.fullheight{
+    width:100%;
+    height : auto;
+    background-color : gray;
+    background-size:cover;
 }
 
-    li .option {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: background-color 0.5s ease;
-    }
-
-    li .option:hover:not(.active){
-        background-color:turquoise;
-    }
-
-        .active{
-            background-color : steelblue;
-        }
-
-.header-image {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-image: url("image/tableau.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(5px);
-}
-
-.header {
-    overflow: auto;
-    position: relative;
-    padding: 20% 20% 20% 20%;
-    margin : 0px;
-
-}
-
-.header h1{
-    color:white;
+.fullheight h1{
+    position: absolute;
     text-align:center;
-
+    top: 50%;
+    left:25%;
+    font-size : 80px;
+    font-family:blckBrd;
+    color : white;
+    z-index:10;
+    opacity:0.8;
 }
 
-
-.footer{
-    background-color:lightgray;
-}
-
-.menugrid{
-    display:grid;
-    grid-template-columns:auto auto auto;
-
-}
-
-.menuitem{
-    font-size : 40px;
-    color: white;
-    text-align : center;
-    margin:20px 20px 20px;
-    padding: 100% 20px;
-    transition: all 0.5s;
-}
-
-    .menuitem:hover {
-        filter: brightness(120%);
-        transform: scale(1.01);
+    .fullheight .affiche {
+        padding:10px;
+        position: absolute;
+        height: 25%;
+        width: 10%;
+        z-index: 11;
+        box-shadow: -1px 2px 5px 5px rgba(0, 0, 0, 0.5), -1px 2px 20px rgba(255, 255, 255, 0.3) inset;
+        transition : all 0.5s;
     }
 
-.grid {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    grid-auto-rows: 20px;
-}
+    .fullheight .affiche:hover{
+        transform : scale(1.1);
+    }
 
-.item {
-    background-color: #ffffff;
-    transition: all 0.5s;
-
-}
-
-    .item:hover {
-        filter: brightness(120%);
-        transform: scale(1.01);
-        
+    .fullheight .affiche h1 {
+        top:25%;
+        left:0;
+        font-size: 20px;
+        font-family: Century;
+        color: white;
+    }
+    .fullheight #affiche1 {
+        background-color :indianred;
+        top: 30%;
+        left: 18%;
+    }
+    .fullheight #affiche2 {
+        background-color: cornflowerblue;
+        top: 35%;
+        left: 75%;
+    }
+    .fullheight #affiche3 {
+        background-color: yellowgreen;
+        top: 80%;
+        left: 20%;
+    }
+    .fullheight #affiche4 {
+        background-color: darkseagreen;
+        top: 83%;
+        left: 70%;
+    }
+    .fullheight #affiche5 {
+        background-color: steelblue;
+        top: 30%;
+        left: 50%;
     }
 
 
 
-.photothumb {
-    width: 100%;
-}
 
-.title {
-    padding: 20px;
-}
-
-    .title h3 {
-        font-size: 1.2em;
-        color: #ffffff;
-        text-transform: uppercase;
-    }
-
-.themewrapper1 .project .title {
-    background-color: lightblue;
-}
-
-.themewrapper1 .blog .title {
-    background-color: lightsteelblue;
-}
-
-.themewrapper1 .photo .title {
-    background-color: lightskyblue;
-}
-
-.themewrapper2 .project .title {
-    background-color: lightgreen;
-}
-
-.themewrapper2 .blog .title {
-    background-color: lightseagreen;
-}
-
-.themewrapper2 .photo .title {
-    background-color: lightslategray;
-}
-
-.themewrapper3 .project .title {
-    background-color: lightcoral;
-}
-
-.themewrapper3 .blog .title {
-    background-color: lightsalmon;
-}
-
-.themewrapper3 .photo .title {
-    background-color: lightpink;
-}
-
-.desc {
-    padding: 10px 10px 5px 10px;
-}
-
-    .desc img {
-        width: 50%;
-        margin: 0 10px 10px 0;
-        float: left;
-    }
-
-    .desc p {
-        margin-bottom: 10px;
-    }
