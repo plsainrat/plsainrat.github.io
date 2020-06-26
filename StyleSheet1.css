@@ -21,11 +21,21 @@ body
     text-align:center;
     top: 50%;
     left:25%;
-    font-size : 80px;
+    font-size : 60px;
     font-family:blckBrd;
     color : white;
     z-index:10;
     opacity:0.8;
+}
+@media(min-width:600px) {
+    .fullheight h1 {
+        font-size: 70px;
+    }
+}
+@media(min-width:1000px) {
+    .fullheight h1 {
+        font-size: 80px;
+    }
 }
 
     .fullheight .affiche {
