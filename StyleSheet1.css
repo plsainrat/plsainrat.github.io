@@ -19,60 +19,61 @@ body
 .fullheight h1{
     position: absolute;
     text-align:center;
-    top: 50%;
+    top: 35%;
     left:25%;
-    font-size : 6.5vw;
+    font-size : 6vw;
     font-family:blckBrd;
-    color : white;
+    color : darkblue;
     z-index:10;
-    opacity:0.6;
+    opacity:0.8;
 }
 
     .fullheight .affiche {
-        padding:1%;
+        opacity: 100%;
         position: absolute;
-        height: 25%;
-        width: 10%;
+        width: 15%;
+        height: auto;
         z-index: 11;
-        box-shadow: -1px 2px 5px 5px rgba(0, 0, 0, 0.5), -1px 2px 20px rgba(255, 255, 255, 0.3) inset;
-        transition : all 0.5s;
+
+        transition: all 0.5s;
     }
 
     .fullheight .affiche:hover{
         transform : scale(1.1);
     }
 
-    .fullheight .affiche h1 {
-        top:25%;
-        left:0;
-        font-size: 1.5vw;
-        font-family: Century;
-        color: white;
-    }
+
     .fullheight #affiche1 {
-        background-color :indianred;
-        top: 30%;
-        left: 18%;
+        top: 25%;
+        left: 3%;
     }
     .fullheight #affiche2 {
-        background-color: cornflowerblue;
-        top: 35%;
-        left: 75%;
+        top: 25%;
+        left: 82%;
     }
     .fullheight #affiche3 {
-        background-color: yellowgreen;
         top: 80%;
-        left: 20%;
+        left: 2%;
     }
     .fullheight #affiche4 {
-        background-color: darkseagreen;
         top: 83%;
-        left: 70%;
+        left: 80%;
     }
     .fullheight #affiche5 {
-        background-color: steelblue;
-        top: 30%;
-        left: 50%;
+        top: 20%;
+        left: 25%;
+    }
+    .fullheight #affiche6 {
+        top: 80%;
+        left: 58%;
+    }
+    .fullheight #affiche7 {
+        top: 75%;
+        left: 35%;
+    }
+    .fullheight #affiche8 {
+        top: 20%;
+        left: 55%;
     }
 
 
