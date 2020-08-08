@@ -116,7 +116,34 @@ li {
 
 .photothumb {
     width: 100%;
+
 }
+
+.videoContainer {    
+    width: 100%;
+}
+
+.h_iframe iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:auto;
+}
+
+.videoInsert {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
 .title {
     padding: 20px;
 }
@@ -126,35 +153,26 @@ li {
         text-transform: uppercase;
     }
 
-.themewrapper1 .project .title {
-    background-color: lightblue;
-}
-.themewrapper1 .blog .title {
+.themewrapper h1 {
+    margin: 5% 0 0 0;
+    padding: 2% 0 2% 0;
     background-color: lightsteelblue;
 }
-.themewrapper1 .photo .title {
+
+.themewrapper .project .title {
+    background-color: lightblue;
+}
+.themewrapper .blog .title {
+    background-color: lightsteelblue;
+}
+.themewrapper .photo .title {
     background-color: lightskyblue;
 }
 
-.themewrapper2 .project .title {
-    background-color: lightgreen;
-}
-.themewrapper2 .blog .title {
-    background-color: lightseagreen;
-}
-.themewrapper2 .photo .title {
-    background-color: lightslategray;
+.themewrapper .video .title {
+    background-color: lightskyblue;
 }
 
-.themewrapper3 .project .title {
-    background-color: lightcoral;
-}
-.themewrapper3 .blog .title {
-    background-color: lightsalmon;
-}
-.themewrapper3 .photo .title {
-    background-color: lightpink;
-}
 
 .desc {
     padding: 10px 10px 5px 10px;
