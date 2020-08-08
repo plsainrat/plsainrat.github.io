@@ -20,7 +20,7 @@ body {
     right: 0;
     z-index: -1;
     display: block;
-    background-image: url("image/tableau.jpg");
+    background-image: url("image/Autempsdesarts/20200621_111420.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -79,6 +79,15 @@ li {
         .active{
             background-color : steelblue;
         }
+
+	li a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		}
+
+
+
 
 .menugrid{
     display:grid;
@@ -160,7 +169,7 @@ li {
 }
 
 .themewrapper .project .title {
-    background-color: lightblue;
+    background-color: dodgerblue;
 }
 .themewrapper .blog .title {
     background-color: lightsteelblue;
