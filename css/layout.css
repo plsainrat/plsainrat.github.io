@@ -269,6 +269,22 @@ ul#nav li.current a { color: #ff9933; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+.work ul {
+   font: 16px/24px 'opensans-bold', serif;
+   background: #ebeeee;
+   padding: 20px;
+   margin-top: 12px;
+   margin-bottom: 24px;
+   list-style: disc, inside;
+}
+.work li {
+   padding: 5px;
+   margin-left: 12px;
+   margin-top: 12px;
+   margin-bottom: 5px;
+   font: 15px/24px 'opensans-regular', sans-serif;
+   list-style: disc;
+}
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -283,6 +299,16 @@ ul#nav li.current a { color: #ff9933; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+#resume .tags {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #fcbd7e;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#work .columns{
+   border-bottom: 1px solid #E8E8E8;
+}
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -333,80 +359,15 @@ ul#nav li.current a { color: #ff9933; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -585,9 +546,12 @@ ul#nav li.current a { color: #ff9933; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
-   padding-top: 66px;
-   padding-bottom: 48px;
+   background: rgba(33, 33, 33, .3) url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+   padding-top: 166px;
+   padding-bottom: 148px;
 }
 #call-to-action h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
