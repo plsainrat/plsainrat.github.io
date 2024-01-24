@@ -1,0 +1,82 @@
+{
+    "nav":{
+        "mobil":{
+            "show":"Montrer Navigation",
+            "hide":"Cacher Navigation"
+        },
+        "home":"home",
+        "about":"Moi",
+        "resume":"Curiculum Vitae",
+        "work":"Projets Personnels",
+        "contact":"Contact"
+    },
+    "banner-text": {
+        "h1":"Je suis Paul Sainrat",
+        "h3":"Je suis un <span>Ingénieur </span> avec une formation en <span> système et logiciel embarqué</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a class=\"smoothscroll\" href=\"#about\">start scrolling</a> and learn more <a class=\"smoothscroll\" href=\"#about\">about me</a>."
+    },
+    "about":{
+        "h2-titre":"À Propos de moi.",
+        "text":"",
+        "contact":"Comment me contacter",
+        "dwl":"Télécharger mon CV"
+    },
+    "resume":{
+        "ed":"<span>Formation</span>",
+        "education":{
+            "titre1":"Université de Sherbrooke",
+            "desc1":"Département de Génie informatique",
+            "date1":"2018",
+            "text1":"C Embarqué, RTOS, Temps réel, ARM Cortex M, Réseau, ZigBee, Mbed, DAC, CAD, UART, I2C, SPI, CAN",
+            "titre2":"ENSIMAG - INP Grenoble",
+            "desc2":"Filière Systeme et logiciel Embarqué",
+            "date2":"2017",
+            "text2":"Programmation orienté Objet, Programmation en temps réel, Base de Données, Conception de logiciel, Système d'exploitation, Algorithmie, Architecture de microprocesseurs",
+            "titre3":"Phelma - INP Grenoble",
+            "desc3":"Filière Physique Electronique Télecoms",
+            "date3":"2016",
+            "text3":"Électronique, Traitement du signale, Automatique, Assembleur"
+        },
+        "wrk":"<span>Experiences</span>",
+        "work":{
+            "titre1":"",
+            "desc1":"",
+            "date1":"",
+            "text1":""
+        },
+        "skills":{
+            "titre1":"<span>Compétences</span>",
+            "desc1":""
+        }
+    },
+    "portfolio":{
+        "h1":"Ce que je fais dans mon temps libre",
+        "wrapper":{
+            "mod1":{
+                "titre":"",
+                "desc":""
+            }
+
+        },
+        "popup":{
+            "details": "",
+            "close":"",
+            "mod1":{
+                "desc":"",
+                "brand":""
+            }
+        }
+
+    },
+    "contact":{
+        "title":"Contactez moi",
+        "desc":"",
+        "form":{
+            "name":"Nom<span class=\"required\">*",
+            "email":"Email<span class=\"required\">*",
+            "subj":"Sujet",
+            "mess":"Message<span class=\"required\">*",
+            "sub":"Envoyer<span class=\"required\">*"
+        },
+        "add":"Comment me contacter autrement"
+    }
+}

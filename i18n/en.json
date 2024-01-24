@@ -1,0 +1,74 @@
+{
+    "nav":{
+        "mobil":{
+            "show":"Show navigation",
+            "hide":"Hide navigation"
+        },
+        "home":"Home",
+        "about":"About",
+        "resume":"Resume",
+        "work":"Personnal Projects",
+        "contact":"Contact"
+    },
+    "banner-text": {
+        "h1":"I'm Paul Sainrat.",
+        "h3":""
+    },
+    "about":{
+        "h2-titre":"",
+        "text":"",
+        "contact":"",
+        "dwl":""
+    },
+    "resume":{
+        "ed":"",
+        "education":{
+            "titre1":"",
+            "desc1":"",
+            "date1":"",
+            "text1":""
+        },
+        "wrk":"",
+        "work":{
+            "titre1":"",
+            "desc1":"",
+            "date1":"",
+            "text1":""
+        },
+        "skills":{
+            "titre1":"",
+            "desc1":""
+        }
+    },
+    "portfolio":{
+        "h1":"",
+        "wrapper":{
+            "mod1":{
+                "titre":"",
+                "desc":""
+            }
+
+        },
+        "popup":{
+            "details": "",
+            "close":"",
+            "mod1":{
+                "desc":"",
+                "brand":""
+            }
+        }
+
+    },
+    "contact":{
+        "title":"",
+        "desc":"",
+        "form":{
+            "name":"",
+            "email":"",
+            "subj":"",
+            "mess":"",
+            "sub":""
+        },
+        "add":""
+    }
+}

@@ -25,6 +25,7 @@
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
+   <script src="js/lang.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -44,12 +45,13 @@
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <li class="current"><a data-i18n="nav.home" class="smoothscroll" href="#home"></a></li>
+            <li><a data-i18n="nav.about" class="smoothscroll" href="#about"></a></li>
+	         <li><a data-i18n="nav.resume" class="smoothscroll" href="#resume"></a></li>
+            <li><a data-i18n="nav.work" class="smoothscroll" href="#portfolio"></a></li>
+            <li><a data-i18n="nav.contact" class="smoothscroll" href="#contact"></a></li>
+            <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+            <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -819,6 +821,8 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script src="js/lang.js"></script>
+
 
 </body>
 
