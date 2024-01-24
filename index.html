@@ -34,7 +34,7 @@
 </head>
 
 <body>
-
+<div id="body" style="display:none;">
    <!-- Header
    ================================================== -->
    <header id="home">
@@ -823,6 +823,12 @@
    <script src="js/init.js"></script>
    <script src="js/lang.js"></script>
 
+</div>
+<script type="text/javascript">
+$(window).ready(function() {
+    $('#body').fadeIn();
+});
+</script>
 
 </body>
 
