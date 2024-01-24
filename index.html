@@ -1,373 +1,422 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="fr"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="fr"> <!--<![endif]-->
+
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<!--<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>-->
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <!--<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>-->
+   <meta name="description" content="">
+   <meta name="author" content="">
 
    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+   <!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
    <script src="js/lang.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<!--<link rel="shortcut icon" href="favicon.png" > -->
-
+   <!--<link rel="shortcut icon" href="favicon.png" > -->
+   <meta http-equiv="refresh" content="0; ./wip.html" />
 </head>
 
 <body>
-<div id="body" style="display:none;">
-   <!-- Header
+   <div id="body" style="display:none;">
+      <!-- Header
    ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
-	      <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a data-i18n="nav.home" class="smoothscroll" href="#home"></a></li>
-            <li><a data-i18n="nav.about" class="smoothscroll" href="#about"></a></li>
-	         <li><a data-i18n="nav.resume" class="smoothscroll" href="#resume"></a></li>
-            <li><a data-i18n="nav.work" class="smoothscroll" href="#portfolio"></a></li>
-            <li><a data-i18n="nav.contact" class="smoothscroll" href="#contact"></a></li>
-            <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
-            <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 data-i18n="banner-text.h1" class="responsive-headline"></h1>
-            <h3 data-i18n="banner-text.h3"></h3>
-            <hr />
-            <ul class="social">
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2 data-i18n="about.h2-titre"></h2>
-
-            <p data-i18n="about.text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2 data-i18n="about.contact"></h2>
-                  <p class="address">
-						   <span>Paul Sainrat</span><br>
-						   <span>55 route de Kerguestan<br>
-						        Lieu dit le Carpont<br>
-                          29810 Lampaul-Plouarzel 
-                     </span><br>
-						   <span>+336XXXXXXXX</span><br>
-                     <span>plsainrat@outlook.com</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a data-i18n="about.dwl" href="./Cv.pdf" class="button" download><i class="fa fa-download"></i></a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1 data-i18n="resume.ed" ><span></span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3 data-i18n="resume.education.titre1"></h3>
-                  <p data-i18n="resume.education.desc1" class="info"> <em data-i18n="resume.education.date1" class="date"></em></p>
-                  <p data-i18n="resume.education.text1">test</p>
-                  <p data-i18n="resume.education.tags1" class="tags"></p>
-               </div>
-            </div> <!-- item end -->
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3 data-i18n="resume.education.titre2"></h3>
-                  <p data-i18n="resume.education.desc2" class="info"><span>&bull;</span> <em data-i18n="resume.education.date2" class="date"></em></p>
-                  <p data-i18n="resume.education.text2"></p>
-                  <p data-i18n="resume.education.tags2" class="tags"></p>
-               </div>
-            </div> <!-- item end -->
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3 data-i18n="resume.education.titre3"></h3>
-                  <p data-i18n="resume.education.desc3" class="info"><span>&bull;</span> <em data-i18n="resume.education.date3" class="date"></em></p>
-                  <p data-i18n="resume.education.text3"></p>
-                  <p data-i18n="resume.education.tags3" class="tags"></p>
-                  </p>
-               </div>
-            </div> <!-- item end -->
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1 data-i18n="resume.wrk"><span></span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3 data-i18n="resume.work.titre1"></h3>
-                  <p data-i18n="resume.work.desc1" class="info"> <span>&bull;</span> <em data-i18n="resume.work.date1" class="date"></em></p>
-                  <p data-i18n="resume.work.text1"></p>
-                  <ul>
-                     <span data-i18n="resume.work.task"></span>
-                     <span data-i18n="resume.work.tasklist1"></span>
-                  </ul>
-                  <p data-i18n="resume.work.tags1" class="tags"></p>
-               </div>
-            </div> <!-- item end -->
-            <hr>
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3 data-i18n="resume.work.titre2"></h3>
-                  <p data-i18n="resume.work.desc2" class="info"> <span>&bull;</span> <em data-i18n="resume.work.date2" class="date"></em></p>
-                  <p data-i18n="resume.work.text2"></p>
-                  <ul>
-                     <span data-i18n="resume.work.task"></span>
-                     <span data-i18n="resume.work.tasklist2"></span>
-                  </ul>
-                  <p data-i18n="resume.work.tags2" class="tags"></p>
-                  <hr>
-                  <p data-i18n="resume.work.desc3" class="info"> <span>&bull;</span> <em data-i18n="resume.work.date3" class="date"></em></p>
-                  <p data-i18n="resume.work.text3"></p>
-                  <ul>
-                     <span data-i18n="resume.work.task"></span>
-                     <span data-i18n="resume.work.tasklist3"></span>
-                  </ul>
-                  <p data-i18n="resume.work.tags3" class="tags"></p>
-               </div>
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1 data-i18n="resume.skills.titre1"><span></span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p data-i18n="resume.skills.desc1">
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1 data-i18n="portfolio.h1"></h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5 data-i18n="portfolio.wrapper.mod1.titre">Coffee</h5>
-                              <p data-i18n="portfolio.wrapper.mod1.desc">Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4 data-i18n="portfolio.wrapper.mod1.titre">Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span data-i18n="portfolio.popup.mod1,desc" class="categories"><i data-i18n="portfolio.popup.mod1.brand" class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a data-i18n="portfolio.popup.details" href=# target="_blank">Details</a>
-		         <a data-i18n="portfolio.popup.close" class="popup-modal-dismiss">Close</a>
+      <header id="home">
+         <nav id="nav-wrap">
+
+            <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
+            <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
+
+            <ul id="nav" class="nav">
+               <li class="current"><a data-i18n="nav.home" class="smoothscroll" href="#home"></a></li>
+               <li><a data-i18n="nav.about" class="smoothscroll" href="#about"></a></li>
+               <li><a data-i18n="nav.resume" class="smoothscroll" href="#resume"></a></li>
+               <li><a data-i18n="nav.work" class="smoothscroll" href="#portfolio"></a></li>
+               <li><a data-i18n="nav.contact" class="smoothscroll" href="#contact"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
+            </ul> <!-- end #nav -->
+
+         </nav> <!-- end #nav-wrap -->
+
+
+         <div class="row banner">
+            <div class="banner-text">
+               <h1 data-i18n="banner-text.h1" class="responsive-headline"></h1>
+               <h3 data-i18n="banner-text.h3"></h3>
+               <hr />
+               <ul class="social">
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+               </ul>
             </div>
+         </div>
 
-	      </div><!-- modal-01 End -->
+         <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+         </p>
 
-      </div> <!-- row End -->
+      </header> <!-- Header End -->
 
-   </section> <!-- Portfolio Section End-->
 
-   <!-- Testimonials Section
+      <!-- About Section
    ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
+      <section id="about">
 
          <div class="row">
 
-            <div class="two columns header-col">
+            <div class="three columns">
 
-               <h1><span>Client Testimonials</span></h1>
+               <img class="profile-pic" src="images/profilepic.jpg" alt="" />
 
             </div>
 
-            <div class="ten columns flex-container">
+            <div class="nine columns main-col">
 
-               <div class="flexslider">
+               <h2 data-i18n="about.h2-titre"></h2>
 
-                  <ul class="slides">
+               <p data-i18n="about.text">
+               </p>
 
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
+               <div class="row">
 
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
+                  <div class="columns contact-details">
 
+                     <h2 data-i18n="about.contact"></h2>
+                     <p class="address">
+                        <span>Paul Sainrat</span><br>
+                        <span>55 route de Kerguestan<br>
+                           Lieu dit le Carpont<br>
+                           29810 Lampaul-Plouarzel
+                        </span><br>
+                        <span>+336XXXXXXXX</span><br>
+                        <span>plsainrat@outlook.com</span>
+                     </p>
+
+                  </div>
+
+                  <div class="columns download">
+                     <p>
+                        <a data-i18n="about.dwl" href="./Cv.pdf" class="button" download><i
+                              class="fa fa-download"></i></a>
+                     </p>
+                  </div>
+
+               </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+         </div>
+
+      </section> <!-- About Section End-->
+
+
+      <!-- Resume Section
+   ================================================== -->
+      <section id="resume">
+
+         <!-- Education
+      ----------------------------------------------- -->
+         <div class="row education">
+
+            <div class="three columns header-col">
+               <h1 data-i18n="resume.ed"><span></span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.education.titre1"></h3>
+                     <p data-i18n="resume.education.desc1" class="info"> <em data-i18n="resume.education.date1"
+                           class="date"></em></p>
+                     <p data-i18n="resume.education.text1"></p>
+                     <p data-i18n="resume.education.tags1" class="tags"></p>
+                  </div>
+               </div> <!-- item end -->
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.education.titre2"></h3>
+                     <p data-i18n="resume.education.desc2" class="info"><span>&bull;</span> <em
+                           data-i18n="resume.education.date2" class="date"></em></p>
+                     <p data-i18n="resume.education.text2"></p>
+                     <p data-i18n="resume.education.tags2" class="tags"></p>
+                  </div>
+               </div> <!-- item end -->
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.education.titre3"></h3>
+                     <p data-i18n="resume.education.desc3" class="info"><span>&bull;</span> <em
+                           data-i18n="resume.education.date3" class="date"></em></p>
+                     <p data-i18n="resume.education.text3"></p>
+                     <p data-i18n="resume.education.tags3" class="tags"></p>
+                     </p>
+                  </div>
+               </div> <!-- item end -->
+            </div> <!-- main-col end -->
+
+         </div> <!-- End Education -->
+
+
+         <!-- Work
+      ----------------------------------------------- -->
+         <div class="row work">
+
+            <div class="three columns header-col">
+               <h1 data-i18n="resume.wrk"><span></span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.work.titre1"></h3>
+                     <p data-i18n="resume.work.desc1" class="info"> <span>&bull;</span> <em
+                           data-i18n="resume.work.date1" class="date"></em></p>
+                     <p data-i18n="resume.work.text1"></p>
+                     <ul>
+                        <div class="collapsible">
+                           <input type="checkbox" name="collapse" id="handle1" checked="checked">
+                           <h2 class="handle">
+                              <label data-i18n="resume.work.task" for="handle1"></label>
+                           </h2>
+                           <div class="content" data-i18n="resume.work.tasklist1"></div>
+                        </div>
+                     </ul>
+                     <p data-i18n="resume.work.tags1" class="tags"></p>
+                  </div>
+               </div> <!-- item end -->
+               <hr>
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.work.titre2"></h3>
+                     <p data-i18n="resume.work.desc2" class="info"> <span>&bull;</span> <em
+                           data-i18n="resume.work.date2" class="date"></em></p>
+                     <p data-i18n="resume.work.text2"></p>
+                     <ul>
+                        <div class="collapsible">
+                           <input type="checkbox" name="collapse" id="handle2" checked="checked">
+                           <h2 class="handle">
+                              <label data-i18n="resume.work.task" for="handle2"></label>
+                           </h2>
+                           <div class="content" data-i18n="resume.work.tasklist2"></div>
+                        </div>
+                     </ul>
+                     <p data-i18n="resume.work.tags2" class="tags"></p>
+                     <hr>
+                     <p data-i18n="resume.work.desc3" class="info"> <span>&bull;</span> <em
+                           data-i18n="resume.work.date3" class="date"></em></p>
+                     <p data-i18n="resume.work.text3"></p>
+                     <ul>
+                        <div class="collapsible">
+                           <input type="checkbox" name="collapse" id="handle3" checked="checked">
+                           <h2 class="handle">
+                              <label data-i18n="resume.work.task" for="handle3"></label>
+                           </h2>
+                           <div class="content" data-i18n="resume.work.tasklist3"></div>
+                        </div>
+                     </ul>
+                     <p data-i18n="resume.work.tags3" class="tags"></p>
+                  </div>
+               </div> <!-- item end -->
+               <hr>
+               <div class="row item">
+                  <div class="twelve columns">
+                     <h3 data-i18n="resume.work.titre4"></h3>
+                     <p data-i18n="resume.work.desc4" class="info"> <span>&bull;</span> <em
+                           data-i18n="resume.work.date4" class="date"></em></p>
+                     <p data-i18n="resume.work.text4"></p>
+                     <ul>
+                        <div class="collapsible">
+                           <input type="checkbox" name="collapse" id="handle4" checked="checked">
+                           <h2 class="handle">
+                              <label data-i18n="resume.work.task" for="handle4"></label>
+                           </h2>
+                           <div class="content" data-i18n="resume.work.tasklist4"></div>
+                        </div>
+                     </ul>
+                     <p data-i18n="resume.work.tags4" class="tags"></p>
+                  </div>
+               </div> <!-- item end -->
+
+
+            </div> <!-- main-col end -->
+
+         </div> <!-- End Work -->
+
+
+         <!-- Skills
+      ----------------------------------------------- -->
+         <div class="row skill">
+
+            <div class="three columns header-col">
+               <h1 data-i18n="resume.skills.titre1"></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+               <p data-i18n="resume.skills.desc1">
+               </p>
+
+               <div class="bars">
+
+                  <ul class="skills">
+                     <li><span class="bar-expand ccpp"></span><em>C et C++</em></li>
+                     <li><span class="bar-expand python"></span><em>Python<em></li>
+                     <li><span class="bar-expand java"></span><em>Java</em></li>
+                     <li><span class="bar-expand asm"></span><em>ASM</em></li>
                   </ul>
 
-               </div> <!-- div.flexslider ends -->
+               </div><!-- end skill-bars -->
 
-            </div> <!-- div.flex-container ends -->
+            </div> <!-- main-col end -->
 
-         </div> <!-- row ends -->
+         </div> <!-- End skills -->
 
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
+      </section> <!-- Resume Section End-->
 
 
-   <!-- Contact Section
+      <!-- Portfolio Section
    ================================================== -->
-   <section id="contact">
+      <section id="portfolio">
+
+         <div class="row">
+
+            <div class="twelve columns collapsed">
+
+               <h1 data-i18n="portfolio.h1"></h1>
+
+               <!-- portfolio-wrapper -->
+               <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+                  <div class="columns portfolio-item">
+                     <div class="item-wrap">
+
+                        <a href="#modal-01" title="">
+                           <img alt="" src="images/portfolio/coffee.jpg">
+                           <div class="overlay">
+                              <div class="portfolio-item-meta">
+                                 <h5 data-i18n="portfolio.wrapper.mod1.titre">Coffee</h5>
+                                 <p data-i18n="portfolio.wrapper.mod1.desc">Illustrration</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+
+                     </div>
+                  </div> <!-- item end -->
+
+                  <div class="columns portfolio-item">
+                     <div class="item-wrap">
+
+                     </div> <!-- twelve columns end -->
+
+
+                     <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+                     <div id="modal-01" class="popup-modal mfp-hide">
+
+                        <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+                        <div class="description-box">
+                           <h4 data-i18n="portfolio.wrapper.mod1.titre">Coffee Cup</h4>
+                           <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+                              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                           <span data-i18n="portfolio.popup.mod1,desc" class="categories"><i
+                                 data-i18n="portfolio.popup.mod1.brand" class="fa fa-tag"></i>Branding, Webdesign</span>
+                        </div>
+
+                        <div class="link-box">
+                           <a data-i18n="portfolio.popup.details" href=# target="_blank">Details</a>
+                           <a data-i18n="portfolio.popup.close" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                     </div><!-- modal-01 End -->
+
+                  </div> <!-- row End -->
+
+      </section> <!-- Portfolio Section End-->
+
+      <!-- Testimonials Section
+   ================================================== -->
+      <section id="testimonials">
+
+         <div class="text-container">
+
+            <div class="row">
+
+               <div class="two columns header-col">
+
+                  <h1><span>Client Testimonials</span></h1>
+
+               </div>
+
+               <div class="ten columns flex-container">
+
+                  <div class="flexslider">
+
+                     <ul class="slides">
+
+                        <li>
+                           <blockquote>
+                              <p>Your work is going to fill a large part of your life, and the only way to be truly
+                                 satisfied is
+                                 to do what you believe is great work. And the only way to do great work is to love what
+                                 you do.
+                                 If you haven't found it yet, keep looking. Don't settle. As with all matters of the
+                                 heart, you'll know when you find it.
+                              </p>
+                              <cite>Steve Jobs</cite>
+                           </blockquote>
+                        </li> <!-- slide ends -->
+
+                        <li>
+                           <blockquote>
+                              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                 aliquet.
+                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                 sagittis sem
+                                 nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                              </p>
+                              <cite>Mr. Adobe</cite>
+                           </blockquote>
+                        </li> <!-- slide ends -->
+
+                     </ul>
+
+                  </div> <!-- div.flexslider ends -->
+
+               </div> <!-- div.flex-container ends -->
+
+            </div> <!-- row ends -->
+
+         </div> <!-- text-container ends -->
+
+      </section> <!-- Testimonials Section End-->
+
+
+      <!-- Contact Section
+   ================================================== -->
+      <section id="contact">
 
          <div class="row section-head">
 
@@ -379,8 +428,8 @@
 
             <div class="ten columns">
 
-                  <p data-i18n="contact.desc" class="lead">
-                  </p>
+               <p data-i18n="contact.desc" class="lead">
+               </p>
 
             </div>
 
@@ -392,44 +441,44 @@
 
                <!-- form -->
                <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+                  <fieldset>
 
-                  <div>
-						   <label data-i18n="contact.form.name" for="contactName"></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
+                     <div>
+                        <label data-i18n="contact.form.name" for="contactName"></label>
+                        <input type="text" value="" size="35" id="contactName" name="contactName">
+                     </div>
 
-                  <div>
-						   <label data-i18n="contact.form.email" for="contactEmail"></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
+                     <div>
+                        <label data-i18n="contact.form.email" for="contactEmail"></label>
+                        <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                     </div>
 
-                  <div>
-						   <label data-i18n="contact.form.subj" for="contactSubject"></label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
+                     <div>
+                        <label data-i18n="contact.form.subj" for="contactSubject"></label>
+                        <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                     </div>
 
-                  <div>
-                     <label data-i18n="contact.form.mess" for="contactMessage"></span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
+                     <div>
+                        <label data-i18n="contact.form.mess" for="contactMessage"></span></label>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     </div>
 
-                  <div>
-                     <button data-i18n="contact.form.sub" class="submit"></button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
+                     <div>
+                        <button data-i18n="contact.form.sub" class="submit"></button>
+                        <span id="image-loader">
+                           <img alt="" src="images/loader.gif">
+                        </span>
+                     </div>
 
-					</fieldset>
-				   </form> <!-- Form End -->
+                  </fieldset>
+               </form> <!-- Form End -->
 
                <!-- contact-warning -->
                <div id="message-warning"> Error boy</div>
                <!-- contact-success -->
-				   <div id="message-success">
+               <div id="message-success">
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
+               </div>
 
             </div>
 
@@ -438,70 +487,72 @@
 
                <div class="widget widget_contact">
 
-					   <h4 data-i18n="contact.add">Address and Phone</h4>
-					   <p class="address">
+                  <h4 data-i18n="contact.add">Address and Phone</h4>
+                  <p class="address">
                      <span>Paul Sainrat</span><br>
-						   <span>55 route de Kerguestan<br>
-						        Lieu dit le Carpont<br>
-                          29810 Lampaul-Plouarzel 
+                     <span>55 route de Kerguestan<br>
+                        Lieu dit le Carpont<br>
+                        29810 Lampaul-Plouarzel
                      </span><br>
-						   <span>+336XXXXXXXX</span><br>
-					   </p>
+                     <span>+336XXXXXXXX</span><br>
+                  </p>
 
-				   </div>
+               </div>
 
             </aside>
 
-      </div>
+         </div>
 
-   </section> <!-- Contact Section End-->
+      </section> <!-- Contact Section End-->
 
 
-   <!-- footer
+      <!-- footer
    ================================================== -->
-   <footer>
+      <footer>
 
-      <div class="row">
+         <div class="row">
 
-         <div class="twelve columns">
+            <div class="twelve columns">
 
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-            </ul>
+               <ul class="social-links">
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+               </ul>
 
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>
+               <ul class="copyright">
+                  <li>&copy; Copyright 2014 CeeVee</li>
+                  <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
+                  </li>
+               </ul>
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+            </div>
 
          </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+      </footer> <!-- Footer End-->
 
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
+      <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+      <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-   <script src="js/lang.js"></script>
+      <script src="js/jquery.flexslider.js"></script>
+      <script src="js/waypoints.js"></script>
+      <script src="js/jquery.fittext.js"></script>
+      <script src="js/magnific-popup.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/lang.js"></script>
 
-</div>
-<script type="text/javascript">
-$(window).ready(function() {
-    $('#body').fadeIn();
-});
-</script>
+   </div>
+   <script type="text/javascript">
+      $(window).ready(function () {
+         $('#body').fadeIn();
+      });
+   </script>
 
 </body>
 

@@ -1,96 +1,96 @@
 {
-    "nav":{
-        "mobil":{
-            "show":"Montrer Navigation",
-            "hide":"Cacher Navigation"
+    "nav": {
+        "mobil": {
+            "show": "Montrer Navigation",
+            "hide": "Cacher Navigation"
         },
-        "home":"home",
-        "about":"Moi",
-        "resume":"Curiculum Vitae",
-        "work":"Projets Personnels",
-        "contact":"Contact"
+        "home": "home",
+        "about": "Moi",
+        "resume": "Curiculum Vitae",
+        "work": "Projets Personnels",
+        "contact": "Contact"
     },
     "banner-text": {
-        "h1":"Je suis Paul Sainrat",
-        "h3":"Je suis un <span>Ingénieur </span> avec une formation en <span> système et logiciel embarqué</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a class=\"smoothscroll\" href=\"#about\">start scrolling</a> and learn more <a class=\"smoothscroll\" href=\"#about\">about me</a>."
+        "h1": "Je suis Paul Sainrat",
+        "h3": "Je suis un <span>Ingénieur </span> avec une formation en <span> système et logiciel embarqué</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a class=\"smoothscroll\" href=\"#about\">start scrolling</a> and learn more <a class=\"smoothscroll\" href=\"#about\">about me</a>."
     },
-    "about":{
-        "h2-titre":"À Propos de moi.",
-        "text":"",
-        "contact":"Comment me contacter",
-        "dwl":"Télécharger mon CV"
+    "about": {
+        "h2-titre": "À Propos de moi.",
+        "text": "",
+        "contact": "Comment me contacter",
+        "dwl": "Télécharger mon CV"
     },
-    "resume":{
-        "ed":"<span>Formation</span>",
-        "education":{
-            "titre1":"Université de Sherbrooke",
-            "desc1":"Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
-            "text1":"Description école et programme",
-            "tags1":"C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I2C/ SPI/ CAN",
-            "titre2":"ENSIMAG - INP Grenoble",
-            "desc2":"Filière Systeme et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
-            "text2":"Description école et programme",
-            "tags2":"Programmation orienté Objet/ Programmation en temps réel/ Base de Données/ Conception de logiciel/ Système d'exploitation/ Algorithmie/ Architecture de microprocesseurs",
-            "titre3":"Phelma - INP Grenoble",
-            "desc3":"Filière Physique Electronique Télecoms<span>&bull;</span><em  class=\"date\">2016</em>",
-            "text3":"Description école et programme",
-            "tags3":"Électronique/ Traitement du signale/ Automatique/ Assembleur"
+    "resume": {
+        "ed": "<span>Formation</span>",
+        "education": {
+            "titre1": "Université de Sherbrooke",
+            "desc1": "Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
+            "text1": "Description école et programme",
+            "tags1": "C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I2C/ SPI/ CAN",
+            "titre2": "ENSIMAG - INP Grenoble",
+            "desc2": "Filière Systeme et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
+            "text2": "Description école et programme",
+            "tags2": "Programmation orienté Objet/ Programmation en temps réel/ Base de Données/ Conception de logiciel/ Système d'exploitation/ Algorithmie/ Architecture de microprocesseurs",
+            "titre3": "Phelma - INP Grenoble",
+            "desc3": "Filière Physique Electronique Télecoms<span>&bull;</span><em  class=\"date\">2016</em>",
+            "text3": "Description école et programme",
+            "tags3": "Électronique/ Traitement du signale/ Automatique/ Assembleur"
         },
-        "wrk":"<span>Experiences</span>",
-        "work":{
-            "task":"Tâches",
-
-            "titre1":"Naval Group",
-            "desc1":"Ingénieur Développement logiciel<span>&bull;</span><em class=\"date\">2022-2023</em>",
-            "text1":"<em>Projet en diffusion restrainte, je ne peux donc pas entré dans les details de la mission</em></br>Développement en C++ du logiciel coeur système, qui fait l'interface les différents composants du système et l'interface graphique. Le logiciel est découpé en plusieurs module prenant chacun en charge la communication avec un composant.</br> J'étais en charge d'un module en particulier, et je travaillais en étroite collaboration avec un ingénieur système qui s'occupait de définir les éxigences du modules et un ingenieur QA qui était chargé de tester le logiciel. Chaque module a été développé en s'appuyant sur un Framework déjà existant.",
-            "tasklist1":"<li>Tenu d'une documentation technique : Spécification Logiciel</li><li>Prise en main d'un code déjà existant</li><li>Développement de fonctionnalités en <em>C++</em></li><li>Scripts de test, scénario et couverture d'exigence en <em>Python</em></li><li>Test unitaire</li>", 
-            "tags1":"C/C++/Vim/Eclipse/Git/CentOS/Python",
-
-            "titre2":"Stormshield",
-            "desc2":"Ingénieur Système<span>&bull;</span><em class=\"date\">2020-2022",
-            "text2":"Le Client (Stormshield) propose des solutions de Cyber Sécurité tel que des Firewall. De tel produit peuvent être évalué par des organismes tel que l'ANSSI (Agence nationale de la sécurité des systèmes d'information) pour associer au produit un certain \"niveau\" de sécurité.  Le firmware est commun a tout les type de Firewall et c'est la cible de l'évaluation. Le firmware à déjà été certifié au niveau EAL3+ par l'ANSSI. Le but est d'obtenir le niveau EAL4+. Pour cela, il a fallu mettre la documentation technique à jour, la traduire en anglais et aller plus en profondeur dans la description des mécanismes et des interactions entre les différents modules du firmware.",
-            "tasklist2":"<li>Traduction de document technique en anglais</li><li>Rédaction de documents technique:Architecture (VPN)</li><li>Rédaction de documents technique:Fonctionnel (IKE, LDAP, IPSEC)</li><li>Exploration du code source via une VM Ubuntu</li>",
-            "tags2":"C/C++/TCP/IP/IPSEC/IKE/LDAP/Virtual Box/Vim/GIT/Phabricator/FreeRTOS/Word",
-            "desc3":"Ingénieur Logiciel<span>&bull;</span><em class\"date\">2022",
-            "text3":"En integrant les équipes de QA, ma mission de était d'appliquer des corrections sur le firmware du produit. Pour cela, on prend la sortie d'un logiciel d'analyse de code, \"Coverity\", et on analyse et corrige les erreurs relevées par le logiciel.</br>Avant de pouvoir intégrer cette nouvelle équipe, j'ai d'abords suivis une formation. Il s'agit d'une série d'exercices a faire et des documents à lire pour prendre en main les différents outils utilisé par les équipes de développement.</br> Le but est de se familiariser avec le firmware, les règles de codes ainsi que les processus de mise à jour du firmware et la manipulation des machines de builds.",
-            "tasklist3":"<li>Développement de fonctionen C</li><li>Debbugage avec GDB</li><li>Build du firmware</li><li>Mise à Jour du firmware sur un firewall physique</li><li>code Peer-review</li>",
-            "tags3":"Ubuntu/FreeBSD/C/C++/GDB/Makefile/Git/Phabricator/Arcanist"
+        "wrk": "<span>Experiences</span>",
+        "work": {
+            "task": "Tâches ▼",
+            "titre1": "Naval Group",
+            "desc1": "Ingénieur Développement logiciel<span>&bull;</span><em class=\"date\">2022-2023</em>",
+            "text1": "<em>Projet en diffusion restrainte, je ne peux donc pas entré dans les details de la mission</em></br>Développement en C++ du logiciel coeur système, qui fait l'interface les différents composants du système et l'interface graphique. Le logiciel est découpé en plusieurs module prenant chacun en charge la communication avec un composant.</br> J'étais en charge d'un module en particulier, et je travaillais en étroite collaboration avec un ingénieur système qui s'occupait de définir les éxigences du modules et un ingenieur QA qui était chargé de tester le logiciel. Chaque module a été développé en s'appuyant sur un Framework déjà existant. J'ai integré un équipe d'une dixaine de développeurs avec une méthodologie de travail en cycle en V.",
+            "tasklist1": "<li>Tenu d'une documentation technique : Spécification Logiciel</li><li>Prise en main d'un code déjà existant</li><li>Développement de fonctionnalités en <em>C++</em></li><li>Scripts de test, scénario et couverture d'exigence en <em>Python</em></li><li>Test unitaire</li>",
+            "tags1": "C/C++/Vim/Eclipse/Git/CentOS/Python",
+            "titre2": "Stormshield",
+            "desc2": "Ingénieur Système<span>&bull;</span><em class=\"date\">2020-2022",
+            "text2": "Le Client (Stormshield) propose des solutions de Cyber Sécurité tel que des Firewall. De tel produit peuvent être évalué par des organismes tel que l'ANSSI (Agence nationale de la sécurité des systèmes d'information) pour associer au produit un certain \"niveau\" de sécurité.  Le firmware est commun a tout les type de Firewall et c'est la cible de l'évaluation. Le firmware à déjà été certifié au niveau EAL3+ par l'ANSSI. Le but est d'obtenir le niveau EAL4+. Pour cela, il a fallu mettre la documentation technique à jour, la traduire en anglais et aller plus en profondeur dans la description des mécanismes et des interactions entre les différents modules du firmware.",
+            "tasklist2": "<li>Traduction de document technique en anglais</li><li>Rédaction de documents technique:Architecture (VPN)</li><li>Rédaction de documents technique:Fonctionnel (IKE, LDAP, IPSEC)</li><li>Exploration du code source via une VM Ubuntu</li>",
+            "tags2": "C/C++/TCP/IP/IPSEC/IKE/LDAP/Virtual Box/Vim/GIT/Phabricator/FreeRTOS/Word",
+            "desc3": "Ingénieur Logiciel<span>&bull;</span><em class=\"date\">2022",
+            "text3": "En integrant les équipes de QA, ma mission de était d'appliquer des corrections sur le firmware du produit. Pour cela, on prend la sortie d'un logiciel d'analyse de code, \"Coverity\", et on analyse et corrige les erreurs relevées par le logiciel.</br>Avant de pouvoir intégrer cette nouvelle équipe, j'ai d'abords suivis une formation. Il s'agit d'une série d'exercices a faire et des documents à lire pour prendre en main les différents outils utilisé par les équipes de développement.</br> Le but est de se familiariser avec le firmware, les règles de codes ainsi que les processus de mise à jour du firmware et la manipulation des machines de builds.",
+            "tasklist3": "<li>Développement de fonction en C</li><li>Debbugage avec GDB</li><li>Build du firmware</li><li>Mise à Jour du firmware sur un firewall physique</li><li>code Peer-review</li>",
+            "tags3": "Ubuntu/FreeBSD/C/C++/GDB/Makefile/Git/Phabricator/Arcanist",
+            "titre4": "Innovation lab' - ASTEK",
+            "desc4": "Stagiaire Ingénieur Chercheur<span>&bull;</span><em class=\"date\">2020",
+            "text4": "Dans le cadre de mon stage de dernière année en école d'ingénieur, j'ai du m'ateler à la conception et au développement d'un modèle mathématique permettant d'exprimer les performances du système de comptage RFID grâce à des équations mathématiques.",
+            "tasklist4": "<li>Études et développement d'une technologie innovante</li><li>Rédaction du cahier des charges</li><li>Rédaction et validation des plans de tests</li><li>Développement de logiciels pour communiquer avec le module RFID</li><li>Dimensionnement d'un banc de test motorisé</li><li>Adaptation d'un système existant pour répondre au cahier des charges</li><li> Traitement mathématique des données produites</li>",
+            "tags4": "C/Python/Arduino/RFID/Communication Série/Communication courte portée"
         },
-
-        "skills":{
-            "titre1":"<span>Compétences</span>",
-            "desc1":""
+        "skills": {
+            "titre1": "<i class=\"fa-solid fa-code\"></i><span> Compétences</span>",
+            "desc1": ""
         }
     },
-    "portfolio":{
-        "h1":"Ce que je fais dans mon temps libre",
-        "wrapper":{
-            "mod1":{
-                "titre":"",
-                "desc":""
+    "portfolio": {
+        "h1": "Ce que je fais dans mon temps libre",
+        "wrapper": {
+            "mod1": {
+                "titre": "",
+                "desc": ""
             }
-
         },
-        "popup":{
+        "popup": {
             "details": "",
-            "close":"",
-            "mod1":{
-                "desc":"",
-                "brand":""
+            "close": "",
+            "mod1": {
+                "desc": "",
+                "brand": ""
             }
         }
-
     },
-    "contact":{
-        "title":"Contactez moi",
-        "desc":"",
-        "form":{
-            "name":"Nom<span class=\"required\">*",
-            "email":"Email<span class=\"required\">*",
-            "subj":"Sujet",
-            "mess":"Message<span class=\"required\">*",
-            "sub":"Envoyer"
+    "contact": {
+        "title": "Contactez moi",
+        "desc": "",
+        "form": {
+            "name": "Nom<span class=\"required\">*",
+            "email": "Email<span class=\"required\">*",
+            "subj": "Sujet",
+            "mess": "Message<span class=\"required\">*",
+            "sub": "Envoyer"
         },
-        "add":"Comment me contacter autrement"
+        "add": "Comment me contacter autrement"
     }
 }
