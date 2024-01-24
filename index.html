@@ -41,8 +41,8 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
+	      <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
 
          <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" class="smoothscroll" href="#home"></a></li>
@@ -58,10 +58,8 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">I'm Jonathan Doe.</h1>
-            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h1 data-i18n="banner-text.h1" class="responsive-headline"></h1>
+            <h3 data-i18n="banner-text.h3"></h3>
             <hr />
             <ul class="social">
                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -91,9 +89,9 @@
 
          <div class="nine columns main-col">
 
-            <h2>About Me</h2>
+            <h2 data-i18n="about.h2-titre"></h2>
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            <p data-i18n="about.text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
             voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
             voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
@@ -105,21 +103,22 @@
 
                <div class="columns contact-details">
 
-                  <h2>Contact Details</h2>
+                  <h2 data-i18n="about.contact"></h2>
                   <p class="address">
-						   <span>Jonathan Doe</span><br>
-						   <span>1600 Amphitheatre Parkway<br>
-						         Mountain View, CA 94043 US
+						   <span>Paul Sainrat</span><br>
+						   <span>55 route de Kerguestan<br>
+						        Lieu dit le Carpont<br>
+                          29810 Lampaul-Plouarzel 
                      </span><br>
-						   <span>(123)456-7890</span><br>
-                     <span>anyone@website.com</span>
+						   <span>+336XXXXXXXX</span><br>
+                     <span>plsainrat@outlook.com</span>
 					   </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a data-i18n="about.dwl" href="./Cv.pdf" class="button" download><i class="fa fa-download"></i></a>
                   </p>
                </div>
 
@@ -141,47 +140,35 @@
       <div class="row education">
 
          <div class="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1 data-i18n="resume.ed" ><span></span></h1>
          </div>
 
          <div class="nine columns main-col">
 
             <div class="row item">
-
                <div class="twelve columns">
-
-                  <h3>University of Life</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  <h3 data-i18n="resume.education.titre1"></h3>
+                  <p data-i18n="resume.education.desc1" class="info"><span>&bull;</span> <em data-i18n="resume.education.date1" class="date"></em></p>
+                  <p data-i18n="resume.education.text1">
                   </p>
-
                </div>
-
             </div> <!-- item end -->
-
             <div class="row item">
-
                <div class="twelve columns">
-
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  <h3 data-i18n="resume.education.titre2"></h3>
+                  <p data-i18n="resume.education.desc2" class="info"><span>&bull;</span> <em data-i18n="resume.education.date2" class="date"></em></p>
+                  <p data-i18n="resume.education.text2">
                   </p>
-
                </div>
-
             </div> <!-- item end -->
-
+            <div class="row item">
+               <div class="twelve columns">
+                  <h3 data-i18n="resume.education.titre3"></h3>
+                  <p data-i18n="resume.education.desc3" class="info"><span>&bull;</span> <em data-i18n="resume.education.date3" class="date"></em></p>
+                  <p data-i18n="resume.education.text3">
+                  </p>
+               </div>
+            </div> <!-- item end -->
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
@@ -192,7 +179,7 @@
       <div class="row work">
 
          <div class="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1 data-i18n="resume.wrk"><span></span></h1>
          </div>
 
          <div class="nine columns main-col">
@@ -201,14 +188,10 @@
 
                <div class="twelve columns">
 
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                  <h3 data-i18n="resume.work.titre1"></h3>
+                  <p data-i18n="resume.work.desc1" class="info"> <span>&bull;</span> <em data-i18n="resume.work.date1" class="date"></em></p>
 
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  <p data-i18n="resume.work.text1">
                   </p>
 
                </div>
@@ -216,21 +199,8 @@
             </div> <!-- item end -->
 
             <div class="row item">
-
                <div class="twelve columns">
-
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
                </div>
-
             </div> <!-- item end -->
 
          </div> <!-- main-col end -->
@@ -243,26 +213,18 @@
       <div class="row skill">
 
          <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1 data-i18n="resume.skills.titre1"><span></span></h1>
          </div>
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            <p data-i18n="resume.skills.desc1">
             </p>
 
 				<div class="bars">
 
 				   <ul class="skills">
 					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -282,7 +244,7 @@
 
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1 data-i18n="portfolio.h1"></h1>
 
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
@@ -294,8 +256,8 @@
                         <img alt="" src="images/portfolio/coffee.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5 data-i18n="portfolio.wrapper.mod1.titre">Coffee</h5>
+                              <p data-i18n="portfolio.wrapper.mod1.desc">Illustrration</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -306,124 +268,6 @@
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
 
          </div> <!-- twelve columns end -->
 
@@ -436,137 +280,17 @@
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
+			      <h4 data-i18n="portfolio.wrapper.mod1.titre">Coffee Cup</h4>
 			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+               <span data-i18n="portfolio.popup.mod1,desc" class="categories"><i data-i18n="portfolio.popup.mod1.brand" class="fa fa-tag"></i>Branding, Webdesign</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a data-i18n="portfolio.popup.details" href=# target="_blank">Details</a>
+		         <a data-i18n="portfolio.popup.close" class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
 
       </div> <!-- row End -->
 
@@ -579,11 +303,6 @@
 
       <div class="row">
 
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
-         </div>
 
          <div class="seven columns">
 
@@ -611,15 +330,13 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1 data-i18n="contact.title"><span></span></h1>
 
             </div>
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <p data-i18n="contact.desc" class="lead">
                   </p>
 
             </div>
@@ -635,27 +352,27 @@
 					<fieldset>
 
                   <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
+						   <label data-i18n="contact.form.name" for="contactName"></label>
 						   <input type="text" value="" size="35" id="contactName" name="contactName">
                   </div>
 
                   <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <label data-i18n="contact.form.email" for="contactEmail"></label>
 						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
                   </div>
 
                   <div>
-						   <label for="contactSubject">Subject</label>
+						   <label data-i18n="contact.form.subj" for="contactSubject"></label>
 						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
                   </div>
 
                   <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <label data-i18n="contact.form.mess" for="contactMessage"></span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <button data-i18n="contact.form.sub" class="submit"></button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
@@ -678,12 +395,14 @@
 
                <div class="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4 data-i18n="contact.add">Address and Phone</h4>
 					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
+                     <span>Paul Sainrat</span><br>
+						   <span>55 route de Kerguestan<br>
+						        Lieu dit le Carpont<br>
+                          29810 Lampaul-Plouarzel 
+                     </span><br>
+						   <span>+336XXXXXXXX</span><br>
 					   </p>
 
 				   </div>
