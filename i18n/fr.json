@@ -60,7 +60,7 @@
             "tags4": "C/Python/Arduino/RFID/Communication Série/Communication courte portée"
         },
         "skills": {
-            "titre1": "<i class=\"fa-solid fa-code\"></i><span> Compétences</span>",
+            "titre1": "<span> Compétences</span>",
             "desc1": ""
         }
     },
@@ -68,16 +68,56 @@
         "h1": "Ce que je fais dans mon temps libre",
         "wrapper": {
             "mod1": {
-                "titre": "",
+                "titre": "La Robe de la Lumière",
+                "desc": ""
+            },
+            "mod2": {
+                "titre": "Imprimante et impression 3D",
+                "desc": ""
+            },
+            "mod3": {
+                "titre": "Clap switch",
+                "desc": ""
+            },
+            "mod4": {
+                "titre": "Binary Clock, retour aux basiques",
+                "desc": ""
+            },
+            "mod5": {
+                "titre": "Home made home automation",
+                "desc": ""
+            },
+            "mod6": {
+                "titre": "Donjons et dragons",
                 "desc": ""
             }
         },
         "popup": {
-            "details": "",
-            "close": "",
+            "details": "plus de détails",
+            "close": "fermer",
             "mod1": {
-                "desc": "",
-                "brand": ""
+                "desc": "Dans le carde de sa formation de costumière accessoiriste, ma partenaire a du réaliser un costume de Théâtre. Elle avait choisit de représenter le personnage de la lumière dans l'oiseau bleu Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demander de l'aider pour la partie électronique.",
+                "brand": "ESP-01, Dev Web, C++, UpCycling, Impression 3D, CAD"
+            },
+            "mod2": {
+                "desc": "Lors du premier confinement, je me suis intéressé au hobby de l'impression 3D. Je me suis commandé une imprimante en kit et j'ai rapidement mis les mains à la pâte.",
+                "brand": "CAD, Impression 3D, Autonomie"
+            },
+            "mod3": {
+                "desc": "L'arc-en-ciel rose est un souvenir du Canada, j'ai voulu le modifier pour améliorer son autonomie, et le rendre plus pratique et lui donner plus de jus.",
+                "brand": "Upcycling, Electronique, Kicad"
+            },
+            "mod4": {
+                "desc": "J'avais envie, pour ce projet de réaliser une horloge binaire très simplifiée. En utilisant des composants basiques et sans utiliser de microcontrôleur.",
+                "brand": "Kicad, Electronique, ICs"
+            },
+            "mod5": {
+                "desc": "En explorant les projets que les internautes réalisent avec leurs RaspberryPi je suis tombé sur de multiples projets de Domotique Home made. J'ai voulu essayer moi-même d'installer chez moi un petit système de domotique en utilisant une RaspberryPi",
+                "brand": "ESP-01, RaspberryPi, C++, Platformio, MQTT"
+            },
+            "mod6": {
+                "desc": "Depuis quelques années, le jeu de rôle a pris une place importante dans ma vie. DM passionné ou joueur assidu, j'adore les challenges qu'apporte ce genre de jeu",
+                "brand": "Communication, Imagination, Collaboration, Organisation, Travail en Equipe "
             }
         }
     },
@@ -92,5 +132,25 @@
             "sub": "Envoyer"
         },
         "add": "Comment me contacter autrement"
+    },
+    "article":{
+        "robe":{
+        "article":"Ma partenaire est diplômé d'un DNMADE (diplôme national des métiers d'art et du design) avec une spécialité en costume et accessoire. Dans le cadre de sa formation, pendant la troisième et dernière année, elle a dû réaliser et designer elle-même un costume sur la pièce de son choix. Elle a choisi de réaliser le costume du personnage de la lumière dans la pièce de l'oiseau bleu de Maeterlinck, une pièce onirique plein de métaphores et de symboles.</br> Elle voulait que le personnage soit capable d'illuminer la scène, de révéler des éléments grâce à des ombres chinoises, de la lumière coloré et de la lumière UV. Nous avons donc écrit ensemble un cahier des charge pour que je puisse dimensionner et commencer à designer un système.</br>Pour le microcontrôleur, j'avais sous la main une poignée <a>d'ESP-01</a>. J'ai donc proposé de contrôler les diffèrent éléments de la robe grâce à une interface web qui serait hébergé sur l'ESP.</br>Pour commencer, nous avons choisi les LEDS à utiliser pour l'éclairage principal de la robe. Nous avons décidé d'acheter un ruban de <a>LEDs 5730</a> blanches à la couleur légèrement chaude, les LEDs sont alimenté en 12V et la puissance dépend de la longueur de ruban qu'on utilise (environ 20Wi/m). Les LEDs sont attachées à une ceinture corset grâce à du velcro. Le dernier rang de LEDs est orienté vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur une baleine en plastique.</br>Pour la lumière colorée et la lumière UV, ma partenaire a conçu des gants couleurs chaires dans lesquelles on pouvait cacher de petites plaquettes sur lesquels on avait prévue de monter des matrices de LEDS. Les gants seraient équipés soient avec des LEDs UV soit avec des LEDs colorées en fonction de la scène. Pour la lumière colorée, nous avons choisi des LEDs adressable WS2812B. Pour la lumière UV, nous avons d'abord essayer un ruban de LEDs UV, mais la lumière UV n'était pas assez intense, nous avons donc acheté des LEDs plus puissantes et j'ai monté une matrice de LEDs moi-même.</br>Pour éviter d'avoir des câbles qui suivent l'acteur, nous avons décidé d'alimenter le système à l'aide d'une batterie. J'ai conçu moi-même 2 batteries en utilisant à chaque fois 3 batteries Li-ion recyclées d'une batterie de PC portable. Les 3 batteries sont tenues dans un boîtier imprimé en 3D avec des emplacements prévus pour presser des bandes de nickel contre les batteries, et ainsi évité d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries et de gérer la charge et la décharge. Nous avions donc 2 batteries de 12V rechargeables et interchangeables avec un courant maximal de 10A en sortie (dimensionné par le circuit de protection de la batterie).</br>Les différents éléments du système sont tous contrôlés par un module ESP-01. Le microcontrôleur était alimenté à l'aide d'un step-down qui permettait de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs adressable. L'ESP-01 possède 8 broches, pour notre projet, nous avons utilisé les broches GPIO0 et GPIO2 pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou la fermeture d'un MOSFET assez costaud pour supporter les 12V et la puissance tirée par les LEDS. L'intensité des LEDs blanches était réglable puisqu'on driver le MOSFET avec une PMW. Pour contrôles les LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit.</br>L'ESP héberge un petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à des broche male/femelle pour permettre de l'installer et de le retirer facilement de l'acteur."
+        },
+        "3d":{
+            "article":""
+        },
+        "clap":{
+            "article":""
+        },
+        "clock":{
+            "article":""
+        },
+        "home":{
+            "article":""
+        },
+        "dnd":{
+            "article":""
+        }
     }
 }
