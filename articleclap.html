@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="fr"> <!--<![endif]-->
+
+<head>
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <!--<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/lang.js"></script>
+
+    <!-- Favicons
+	================================================== -->
+    <!--<link rel="shortcut icon" href="favicon.png" > -->
+    <!-- <meta http-equiv="refresh" content="0; ./wip.html" /> -->
+</head>
+
+<body>
+    <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+            <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+        </ul>
+    </nav>
+
+    <section id="article">
+        <div class="row banner">
+            <h1 data-i18n="portfolio.wrapper.mod3.titre"></h1>
+<p>
+Ce petit jouet que j'ai ramené du Canada ne paie pas de mine comme ça, mais c'est un souvenir qui compte pour moi. Le bouton était aimé et la luminosité des LEDS laissait à désirer, j'ai donc voulu modifier l'arc-en-ciel pour le rendre plus pratique et l'améliorer.
+</p>
+<p>
+Tout d'abord, j'ai voulu remplacer les 3 batteries par quelque chose de plus pratique. J'avais sous la main une batterie de PC portable, je l'ai donc ouverte pour récupérer une pile rechargeable de 3.7V. Je l'ai branché au reste du système avec un petit circuit imprimé qui prend en charge la recharge de la batterie par USB et régule l'alimentation du système. 
+</p>
+<p>
+La partie la plus intéressante du projet a été le remplacement du bouton. Je ne voulais pas me contenter de remplacer le bouton par un autre, je voulais être capable d'allumer et d'éteindre l'arc-en-ciel la distance. J'ai pensé au cliché du gars allongé dans son lit qui éteint les lumières en claquant des mains, j'ai donc chercher a remplacer le bouton par un "Clap switch". 
+</p>
+<p>
+D'abord, j'ai démonté un vieux téléphone fixe pour récupérer un petit micro. J'ai amplifié le signal qui en sortait avec un simple amplificateur audio de type A avec 2 transistors bipolaires.
+</p>
+<p>
+Puis j'ai cherché un moyen de simuler le comportement du bouton d'origine qui restait en position ouverte ou fermée. J'ai trouvé plusieurs montages utilisant des transistors bipolaire et un condensateur pour réaliser un "Soft Latch Circuit" qui permet de passer d'un état ouvert à un état fermé sur le contrôle d'une impulsion.   
+</p>
+<p>
+Je me suis ensuite aidé de Kicad pour dessiner le circuit et réaliser le routage. Je n'avais pas envie de réaliser ou de commander un PCB, j'ai donc monté le circuit sur une protoboard avant de l'installer dans l'arc-en-ciel.
+</p>
+            <hr />
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div id="images-wrapper">
+            <img src="ArticlePortfolio/clapSwitch/img/circuit.jpg" />
+            <img src="ArticlePortfolio/clapSwitch/img/protoboard.jpg" />
+            <img src="ArticlePortfolio/clapSwitch/img/WhatsApp Image 2024-02-23 à 16.38.02_c791ff21.jpg" />
+            <video width=100% height=auto controls>
+                <source src="ArticlePortfolio/clapSwitch/img/vidclap.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
+                        class="icon-up-open"></i></a>
+            </div>
+
+        </div>
+
+
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/lang.js"></script>
+
+    </div>
+    <script type="text/javascript">
+        $(window).ready(function () {
+            $('#body').fadeIn();
+        });
+    </script>
+
+</body>
+
+</html>

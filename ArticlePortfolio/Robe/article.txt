@@ -1,0 +1,28 @@
+Titre:
+La Robe Lumineuse
+
+Intro:
+Dans le cadre de sa formation de costumière accessoiriste, ma partenaire a dû réaliser un costume de Théâtre. Elle avait choisi de représenter le personnage de la lumière dans l'oiseau bleu Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aider pour la partie électronique.
+
+
+Article:
+
+Ma partenaire est diplômé d'un DNMADE(diplôme national des métiers d'art et du design) avec une spécialité en costume et accessoire. Dans le cadre de sa formation, pendant la troisième et dernière année, elle a dû réaliser et designer elle-même un costume sur la pièce de son choix. Elle a choisi de réaliser le costume du personnage de la lumière dans la pièce de l'oiseau bleu de Maeterlinck, une pièce onirique plein de métaphores et de symboles.
+
+Elle voulait que le personnage soit capable d'illuminer la scène, de révéler des éléments grâce à des ombres chinoises, de la lumière coloré et de la lumière UV. Nous avons donc écrit ensemble un cahier des charge pour que je puisse dimensionner et commencer à designer un système.
+
+Pour le microcontrôleur, j'avais sous la main une poignée d'ESP-01. J'ai donc proposé de contrôler les diffèrent éléments de la robe grâce à une interface web qui serait hébergé sur l'ESP. 
+
+Pour commencer, nous avons choisi les LEDS à utiliser pour l'éclairage principal de la robe. Nous avons décidé d'acheter un ruban de LEDs 5730 blanches à la couleur légèrement chaude, les LEDs sont alimenté en 12V et la puissance dépend de la longueur de ruban qu'on utilise (environ 20Wi/m). Les LEDs sont attachées à une ceinture corset grâce à du velcro. Le dernier rang de LEDs est orienté vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur une baleine en plastique.
+
+Pour la lumière colorée et la lumière UV, ma partenaire a conçu des gants couleurs chaires dans lesquelles on pouvait cacher de petites plaquettes sur lesquels on avait prévue de monter des matrices de LEDS. Les gants seraient équipés soient avec des LEDs UV soit avec des LEDs colorées en fonction de la scène. Pour la lumière colorée, nous avons choisi des LEDs adressable WS2812B. Pour la lumière UV, nous avons d'abord essayer un ruban de LEDs UV, mais la lumière UV n'était pas assez intense, nous avons donc acheté des LEDs plus puissantes et j'ai monté une matrice de LEDs moi-même.
+
+Pour éviter d'avoir des câbles qui suivent l'acteur, nous avons décidé d'alimenter le système à l'aide d'une batterie. J'ai conçu moi-même 2 batteries en utilisant à chaque fois 3 batteries Li-ion recyclées d'une batterie de PC portable. Les 3 batteries sont tenues dans un boîtier imprimé en 3D avec des emplacements prévus pour presser des bandes de nickel contre les batteries, et ainsi évité d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries et de gérer la charge et la décharge. Nous avions donc 2 batteries de 12V rechargeables et interchangeables avec un courant maximal de 10A en sortie (dimensionné par le circuit de protection de la batterie).
+
+Les différents éléments du système sont tous contrôlés par un module ESP-01. Le microcontrôleur était alimenté à l'aide d'un step-down qui permettait de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs adressable. L'ESP-01 possède 8 broches, pour notre projet, nous avons utilisé les broches GPIO0 et GPIO2 pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou la fermeture d'un MOSFET assez costaud pour supporter les 12V et la puissance tirée par les LEDS. L'intensité des LEDs blanches était réglable puisqu'on driver le MOSFET avec une PMW. Pour contrôles les LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit.
+
+L'ESP héberge un petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à des broche male/femelle pour permettre de l'installer et de le retirer facilement de l'acteur.
+
+
+
+

@@ -1,0 +1,19 @@
+Titre:
+Ma carriere de DM
+
+Intro:
+Depuis quelques années, le jeu de rôle a pris une place importante dans ma vie. DM passionné ou joueur assidu, j'adore les challenges qu'apporte ce genre de jeu 
+
+
+Article:
+Lors du premier confinement, j'ai offert à ma famille "Tabletop simulator". Ce logiciel nous permettait, a nous autre grand amateur de jeu de sociétés, de nous retrouver autour d'une table malgré les règlements sanitaires en vigueur à ce moment. En explorant le contenu de base du logiciel, j'ai découvert des outils et des miniatures qui permettait de jouer à donjons et dragons. J'ai donc entrepris la tache conséquente d'apprendre les règles de donjon et dragons.
+
+Après avoir Bingé toutes les saisons de "Dimensions 20" et avoir potassé le "Player Handbook" et le "Dungeon Master Guide"j'étais enfin prêt a guider mon premier groupe d'aventuriers pour leur campagne initiatique. J'ai vite réalisé que prendre des notes dans un cahier ne sera pas suffisant. J'ai donc cherché à mettre en place un système qui me permettrait d'organiser des notes simplement efficacement.
+
+J'ai alors découvert Notion. Cet outil en ligne me permettait d'organiser mes notes en pages et en sous-pages, mais la feature la plus intéressante sont les bases de données. Acteur, NPC, ville, clans ... Tous les éléments de ma campagne et du monde que j'ai créé sont stocké dans des bases de donnes qui sont également liées entre elles. Ainsi, moi comme mes joueurs pouvons facilement retrouver des informations en quelques cliques. 
+
+Le logiciel "Tabletop simulator" est open source et facilement modable avec des plugins de la communauté ou avec ses propres scripts en Lua. Je ne suis pas très familier avec ce langage, mais j'ai tout de même scripté quelques fonctionnalités qui étaient propre à ma campagne. Cependant, moi et mes joueurs sommes récemment passés à un autre logiciel de VTT (Virtual Table Top) nommé "Fundry VTT" que je n'ai pas encore complètement maîtrisé.
+
+En plus de ma campagne virtuelle, j'ai aussi dirigé et participé a de nombreux one-shots en présentiel. Pour ces one-shots, inspiré par le travail de Rick Perry pour dimension 20 et de Julien Mindel pour la Bonne auberge, j'ai voulu moi-même réaliser mes propres décores et battle-maps. En suivant des vidéos tutoriel sur YouTube, je me sus vite rendu compte que le Polystyrène extrudé était une matière idéal pour le modélisme, mais la meilleure façon de la couper et d'utiliser une découpeuse à fil chaud. Ne voulant pas dépenser près de 100 euros pour ce type de machine, j'ai décidé de me la faire moi-même. J'avais presque tout ce dont j'avais besoin sous la main à part un fil de Nichrome. Grace a un calculateur en ligne, réussi à trouver la longueur de fil, et le courant qui devait le traverser pour réussir a découper correctement la mousse. J'ai utilisé une alimentation, dont j'ai oublié la fonction d'origine, et un potentiomètre pour contrôler la température du fil de Nichrome.
+
+Grace a cette machine, j'ai pu découper plusieurs sets de tuiles de taille et de forme différentes. Après les avoir texturées et peintes, j'ai peu réaliser 2 sets de tuiles modulables pour créer des battle-maps et des donjons différents. J'ai également utilisé mon imprimante 3D pour imprimer des éléments de décors ainsi que les figurines de mes personnages. 

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="fr"> <!--<![endif]-->
+
+<head>
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <!--<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/lang.js"></script>
+
+    <!-- Favicons
+	================================================== -->
+    <!--<link rel="shortcut icon" href="favicon.png" > -->
+    <!-- <meta http-equiv="refresh" content="0; ./wip.html" /> -->
+</head>
+
+<body>
+    <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+            <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+        </ul>
+    </nav>
+
+    <section id="article">
+        <div class="row banner">
+            <h1 data-i18n="portfolio.wrapper.mod1.titre"></h1>
+            <p>"Ma partenaire est diplômé d'un DNMADE (diplôme national des métiers d'art et du design) avec une
+                spécialité en costume et accessoire. Dans le cadre de sa formation, pendant la troisième et dernière
+                année, elle a dû réaliser et designer elle-même un costume sur la pièce de son choix. Elle a choisi de
+                réaliser le costume du personnage de la lumière dans la pièce de l'oiseau bleu de Maeterlinck, une pièce
+                onirique plein de métaphores et de symboles.</p>
+            <p>Elle voulait que le personnage soit capable
+                d'illuminer la scène, de révéler des éléments grâce à des ombres chinoises, de la lumière coloré et de
+                la lumière UV. Nous avons donc écrit ensemble un cahier des charge pour que je puisse dimensionner et
+                commencer à designer un système.</p>
+
+            <p>Pour le microcontrôleur, j'avais sous la main une poignée
+                <a>d'ESP-01</a>. J'ai donc proposé de contrôler les diffèrent éléments de la robe grâce à une interface
+                web qui serait hébergé sur l'ESP.
+            </p>
+
+            <p>Pour commencer, nous avons choisi les LEDS à utiliser pour
+                l'éclairage principal de la robe. Nous avons décidé d'acheter un ruban de <a>LEDs 5730</a> blanches à la
+                couleur légèrement chaude, les LEDs sont alimenté en 12V et la puissance dépend de la longueur de ruban
+                qu'on utilise (environ 20Wi/m). Les LEDs sont attachées à une ceinture corset grâce à du velcro. Le
+                dernier rang de LEDs est orienté vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur
+                une baleine en plastique.</p>
+            <p>Pour la lumière colorée et la lumière UV, ma partenaire a conçu des gants
+                couleurs chaires dans lesquelles on pouvait cacher de petites plaquettes sur lesquels on avait prévue de
+                monter des matrices de LEDS. Les gants seraient équipés soient avec des LEDs UV soit avec des LEDs
+                colorées en fonction de la scène. Pour la lumière colorée, nous avons choisi des LEDs adressable
+                WS2812B. Pour la lumière UV, nous avons d'abord essayer un ruban de LEDs UV, mais la lumière UV n'était
+                pas assez intense, nous avons donc acheté des LEDs plus puissantes et j'ai monté une matrice de LEDs
+                moi-même.</p>
+            <p>Pour éviter d'avoir des câbles qui suivent l'acteur, nous avons décidé d'alimenter le
+                système à l'aide d'une batterie. J'ai conçu moi-même 2 batteries en utilisant à chaque fois 3 batteries
+                Li-ion recyclées d'une batterie de PC portable. Les 3 batteries sont tenues dans un boîtier imprimé en
+                3D avec des emplacements prévus pour presser des bandes de nickel contre les batteries, et ainsi évité
+                d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries et de gérer la charge et la
+                décharge. Nous avions donc 2 batteries de 12V rechargeables et interchangeables avec un courant maximal
+                de 10A en sortie (dimensionné par le circuit de protection de la batterie).</p>
+            <p>Les différents éléments
+                du système sont tous contrôlés par un module ESP-01. Le microcontrôleur était alimenté à l'aide d'un
+                step-down qui permettait de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs
+                adressable. L'ESP-01 possède 8 broches, pour notre projet, nous avons utilisé les broches GPIO0 et GPIO2
+                pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou
+                la fermeture d'un MOSFET assez costaud pour supporter les 12V et la puissance tirée par les LEDS.
+                L'intensité des LEDs blanches était réglable puisqu'on driver le MOSFET avec une PMW. Pour contrôles les
+                LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit.</p>
+            <p>L'ESP héberge un
+                petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler
+                l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour
+                choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le
+                système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à
+                des broche male/femelle pour permettre de l'installer et de le retirer facilement de l'acteur."
+            </p>
+            <hr />
+        </div>
+    </section>
+
+    <section id="gallery">
+    <div id="images-wrapper">
+        <a><img src="ArticlePortfolio/Robe/img/batterie.jpg" /></a>
+        <img src="ArticlePortfolio/Robe/img/batterie2.jpg" />
+        <img src="ArticlePortfolio/Robe/img/cable.jpg" />
+        <img src="ArticlePortfolio/Robe/img/cableDiag.png" />
+        <img src="ArticlePortfolio/Robe/img/Ceinture + 3D.jpg" />
+        <img src="ArticlePortfolio/Robe/img/ceinture.jpg" />
+        <img src="ArticlePortfolio/Robe/img/Gant final.png" />
+        <img src="ArticlePortfolio/Robe/img/Lumière aquarelle.jpg" />
+        <img src="ArticlePortfolio/Robe/img/robefinale.jpg" />
+        <img src="ArticlePortfolio/Robe/img/robefinale2.jpg" />
+        <img src="ArticlePortfolio/Robe/img/robefinale3.jpg" />
+        <img src="ArticlePortfolio/Robe/img/systeme.jpg"/>
+        <img src="ArticlePortfolio/Robe/img/systeme2.jpg"/>
+        <img src="ArticlePortfolio/Robe/img/systeme3.jpg"/>
+        <img src="ArticlePortfolio/Robe/img/UV.jpg"/>
+        <img src="ArticlePortfolio/Robe/img/robekicad.jpg"/>
+        <img src="ArticlePortfolio/Robe/img/robekicad2.jpg"/>
+    
+
+            <video width=100% height=auto controls>
+                <source src="ArticlePortfolio/Robe/img/WhatsApp Vidéo 2024-02-26 à 10.19.45_4e0a49a3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+
+    </div>
+    </section>
+
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
+                        class="icon-up-open"></i></a>
+            </div>
+
+        </div>
+
+
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/lang.js"></script>
+
+    </div>
+    <script type="text/javascript">
+        $(window).ready(function () {
+            $('#body').fadeIn();
+        });
+    </script>
+
+</body>
+
+</html>

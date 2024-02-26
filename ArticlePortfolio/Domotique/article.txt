@@ -1,0 +1,15 @@
+Titre:
+Domotique fait maison
+
+Intro:
+En explorant les projets que les internautes réalisent avec leurs RaspberryPi je suis tombé sur de multiples projets de Domotique Home made. J'ai voulu essayer moi-même d'installer chez moi un petit système de domotique en utilisant une RaspberryPi
+
+Article:
+Broker MQTT sur une RaspberryPi avec Mosquitto.
+
+Cafetière contrôler par un ESP-01 et un mosfet. Allume éteint par message MQTT du broker. Update le statu de la cafetier (éteinte/allumé)
+avec un publish MQTT.
+
+
+
+

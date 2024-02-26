@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="fr"> <!--<![endif]-->
+
+<head>
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <!--<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/lang.js"></script>
+
+    <!-- Favicons
+	================================================== -->
+    <!--<link rel="shortcut icon" href="favicon.png" > -->
+    <!-- <meta http-equiv="refresh" content="0; ./wip.html" /> -->
+</head>
+
+<body>
+    <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+            <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+        </ul>
+    </nav>
+
+    <section id="article">
+        <div class="row banner">
+            <h1 data-i18n="portfolio.wrapper.mod4.titre"></h1>
+            <p>
+                Il y a quelques années, je regardais l'excellente série de vidéo de Ben Eater "Building an 8-bit
+                breadboard computer. Fasciné par les LEDS qui clignotaient frénétiquement à chaque tic de son horloge
+                basé sur un NE555, j'ai eu moi-même l'envie de créer un petit circuit qui fait scintiller des LEDS.
+            </p>
+            <p>
+                J'ai voulu créer un système qui repose uniquement sur des circuits intégrés et des composantes
+                électroniques basiques. En effet, je ne voulais pas utiliser de microcontrôleur, la tache n'aurait eu
+                aucun intérêt d'un point de vue hardware ou software. J'avais envie de créer un circuit qui produit une
+                donnée numérique qui pourrait être comprise et utilisée par un humain, faire quelque chose de pratique
+                et beau. Toujours inspiré par les vidéos de Ben, j'ai donc décidé de faire une horloge.
+            </p>
+            <p>
+                J'ai donc cherché des composants pour accomplir des incrémentations successives rythmé par un
+                l'oscillation régulière d'un autre composant.
+                Pour compter les heures minutes et seconde, j'ai simplement choisi des Ripple-carry binary counters.
+                Grâce à 3 CD4024B de chez Texas instrument, j'ai pu encoder les secondes, minutes et heures de mon
+                horloge en utilisant ses 7 sorties. Les minutes et les secondes sont représentées sur 6 bits chaque, et
+                5 bits pour les heures. Pour réinitialiser les compteurs, j'ai utilisé des quadruples AND gates SN54LS21
+                de chez Texas instrument. Lorsque le compteur atteint sa valeur maximale, on active la broche reset
+                grâce au SN54LS21. Pour l'oscillateur, initialement, je suis parti sur un montage avec un NE555 comme
+                dans la vidéo de Ben. Seulement le NE555 manque de précision et de stabilité à une si basse fréquence.
+                J'ai donc opté pour une méthode plus simple en démontant une vielle horloge cassée et en récupérant son
+                quartz.
+            </p>
+            <p>
+                Ce projet n'a, hélas, jamais quitter la breadboard. Je n'avais pas encore d'imprimante 3D à l'époque et
+                je n'ai pas réussi à trouver à l'horloge un boîtier qui me plaisait.
+            </p>
+
+            <hr />
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div id="images-wrapper">
+            <img src="ArticlePortfolio/Binary Clock/img/MontageBreadBoard.jpg" />
+            <video width=100% height=auto controls>
+                <source src="ArticlePortfolio/Binary Clock/img/VidTic.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img src="ArticlePortfolio/Binary Clock/img/clockkicad.jpg" />
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
+                        class="icon-up-open"></i></a>
+            </div>
+
+        </div>
+
+
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/lang.js"></script>
+
+    </div>
+    <script type="text/javascript">
+        $(window).ready(function () {
+            $('#body').fadeIn();
+        });
+    </script>
+
+</body>
+
+</html>
