@@ -7,12 +7,12 @@
         "home": "home",
         "about": "Moi",
         "resume": "Curiculum Vitae",
-        "work": "Projets Personnels",
+        "work": "Portfolio",
         "contact": "Contact"
     },
     "banner-text": {
         "h1": "Je suis Paul Sainrat",
-        "h3": "Je suis un <span>Ingénieur </span> avec une formation en <span> système et logiciel embarqué</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a class=\"smoothscroll\" href=\"#about\">start scrolling</a> and learn more <a class=\"smoothscroll\" href=\"#about\">about me</a>."
+        "h3": "Je suis un <span>ingénieur</span> avec une formation en <span>système et logiciel embarqué</span>. Passionné d'<span>électronique</span> et d'informatique, j'adore explorer différents outils et développer de nouvelles compétences sur mon temps libre. Dans ce site web, je détaille certains de mes <a class=\"smoothscroll\" href=\"#portfolio\"> projets personnels</a>, ainsi que mes <a class=\"smoothscroll\" href=\"#resume\"> compétences et mes  experiences professionnelles</a>."
     },
     "about": {
         "h2-titre": "À Propos de moi.",
@@ -25,15 +25,12 @@
         "education": {
             "titre1": "Université de Sherbrooke",
             "desc1": "Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
-            "text1": "Description école et programme",
             "tags1": "C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I2C/ SPI/ CAN",
             "titre2": "ENSIMAG - INP Grenoble",
             "desc2": "Filière Systeme et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
-            "text2": "Description école et programme",
             "tags2": "Programmation orienté Objet/ Programmation en temps réel/ Base de Données/ Conception de logiciel/ Système d'exploitation/ Algorithmie/ Architecture de microprocesseurs",
             "titre3": "Phelma - INP Grenoble",
             "desc3": "Filière Physique Electronique Télecoms<span>&bull;</span><em  class=\"date\">2016</em>",
-            "text3": "Description école et programme",
             "tags3": "Électronique/ Traitement du signale/ Automatique/ Assembleur"
         },
         "wrk": "<span>Experiences</span>",
@@ -65,7 +62,7 @@
         }
     },
     "portfolio": {
-        "h1": "Ce que je fais dans mon temps libre",
+        "h1": "Des projets personnels développés sur mon temps libre",
         "wrapper": {
             "mod1": {
                 "titre": "La Robe de la Lumière",
@@ -96,27 +93,27 @@
             "details": "plus de détails",
             "close": "fermer",
             "mod1": {
-                "desc": "Dans le carde de sa formation de costumière accessoiriste, ma partenaire a du réaliser un costume de Théâtre. Elle avait choisit de représenter le personnage de la lumière dans l'oiseau bleu Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demander de l'aider pour la partie électronique.",
+                "desc": "Dans le cadre de sa formation de costumière et accessoiriste, ma partenaire a dû réaliser un costume de théâtre. Elle a choisi de représenter le personnage de la Lumière dans la pièce (mettre en italique le titre) L'Oiseau Bleu de Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aide pour la partie électronique et système embarqué.",
                 "brand": "ESP-01, Dev Web, C++, UpCycling, Impression 3D, CAD"
             },
             "mod2": {
-                "desc": "Lors du premier confinement, je me suis intéressé au hobby de l'impression 3D. Je me suis commandé une imprimante en kit et j'ai rapidement mis les mains à la pâte.",
+                "desc": "Lors du premier confinement, je me suis intéressé au hobby de l'impression 3D. Je me suis commandé une imprimante en kit et j'ai rapidement mis la main à la pâte.",
                 "brand": "CAD, Impression 3D, Autonomie"
             },
             "mod3": {
-                "desc": "L'arc-en-ciel rose est un souvenir du Canada, j'ai voulu le modifier pour améliorer son autonomie, et le rendre plus pratique et lui donner plus de jus.",
+                "desc": "J'ai ramené lors de mon semestre d'étude au Canada un jouet pour enfants qui projette un arc-en-ciel sur un mur. J'ai voulu le modifier pour en améliorer l'autonomie, le rendre plus pratique et lui donner plus de puissance.",
                 "brand": "Upcycling, Electronique, Kicad"
             },
             "mod4": {
-                "desc": "J'avais envie, pour ce projet de réaliser une horloge binaire très simplifiée. En utilisant des composants basiques et sans utiliser de microcontrôleur.",
+                "desc": "J'avais envie pour ce projet de réaliser une horloge binaire ! Je l'ai voulu très simplifier, en utilisant des composants basiques et sans utiliser de microcontrôleur.",
                 "brand": "Kicad, Electronique, ICs"
             },
             "mod5": {
-                "desc": "En explorant les projets que les internautes réalisent avec leurs RaspberryPi je suis tombé sur de multiples projets de Domotique Home made. J'ai voulu essayer moi-même d'installer chez moi un petit système de domotique en utilisant une RaspberryPi",
+                "desc": "En explorant les projets que des internautes ont réalisés avec leurs Raspberry Pi, je suis tombé sur de multiples projets de domotique home-made. J'ai voulu essayer moi-même d'installer chez moi un petit système de domotique en utilisant une RaspberryPi.",
                 "brand": "ESP-01, RaspberryPi, C++, Platformio, MQTT"
             },
             "mod6": {
-                "desc": "Depuis quelques années, le jeu de rôle a pris une place importante dans ma vie. DM passionné ou joueur assidu, j'adore les challenges qu'apporte ce genre de jeu",
+                "desc": "Depuis quelques années, le jeu de rôle a pris une place importante dans ma vie. Donjon Master passionné ou joueur assidu, j'adore les challenges qu'apporte ce genre de jeu!",
                 "brand": "Communication, Imagination, Collaboration, Organisation, Travail en Equipe "
             }
         }

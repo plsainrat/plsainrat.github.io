@@ -253,8 +253,8 @@ ul#nav li.current a {
 
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 
@@ -332,6 +332,7 @@ ul#nav li.current a {
 }
 
 .education,
+.skill,
 .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -401,6 +402,18 @@ ul#nav li.current a {
 }
 
 
+.columnskill{
+   float:left;
+   width: 50%;
+   padding: 10px;
+}
+
+.rowskills:after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -448,6 +461,20 @@ ul#nav li.current a {
    border-radius: 3px 0 0 3px;
 }
 
+.bar-expand-2 {
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 0;
+   padding-right: 24px;
+   background: #ff9933;
+   display: inline-block;
+   height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+
 .ccpp {
    width: 90%;
    -moz-animation: ccpp 2s ease;
@@ -471,6 +498,13 @@ ul#nav li.current a {
    width: 50%;
    -moz-animation: asm 2s ease;
    -webkit-animation: asm 2s ease;
+}
+
+
+.anglais {
+   width: 100%;
+   -moz-animation: anglais 2s ease;
+   -webkit-animation: anglais 2s ease;
 }
 
 
@@ -515,6 +549,17 @@ ul#nav li.current a {
 }
 
 
+@-moz-keyframes anglais {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 100%;
+   }
+}
+
+
 @-webkit-keyframes CCpp {
    0% {
       width: 0px;
@@ -552,6 +597,16 @@ ul#nav li.current a {
 
    100% {
       width: 50%;
+   }
+}
+
+@-webkit-keyframes anglais {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 100%;
    }
 }
 
@@ -710,22 +765,38 @@ ul#nav li.current a {
    margin-right: 8px;
 }
 
+@keyframes tilt-shaking {
+  0% { color: #fff; font-size: 13px; }
+  50% { color: #fff; font-size: 13px;}
+  75% { color: #ff9933; font-size: 15px;}
+  100% { color: #fff; font-size: 13px;}
+}
+
 .popup-modal .link-box {
    padding: 18px 36px;
-   background: #111;
+   background: #2F2D2E;
    text-align: left;
 }
 
+
 .popup-modal .link-box a {
    color: #fff;
-   font: 11px/21px 'opensans-bold', sans-serif;
+   font: 13px/21px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
 }
 
+
+.popup-modal .link-box a .article {
+   animation-name: tilt-shaking;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
 .popup-modal a:hover {
    color: #ff9933;
+   animation: none;
 }
 
 .popup-modal a.popup-modal-dismiss {
@@ -892,6 +963,7 @@ div.descGal {
    width: 100% !important;    
    height: auto !important;  
 }  
+
 #images-wrapper{    
    display:inline-block;    
    margin-right: auto;    
