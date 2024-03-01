@@ -1,0 +1,5 @@
+# ignore the meta files from wsl2
+*Zone.Identifier*
+
+#ignore file from the Tools folder 
+tools/
