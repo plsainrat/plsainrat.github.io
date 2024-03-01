@@ -632,6 +632,7 @@ ul#nav li.current a {
 /* Portfolio Content */
 #portfolio-wrapper .columns {
    margin-bottom: 36px;
+   width: 30%;
 }
 
 .portfolio-item .item-wrap {

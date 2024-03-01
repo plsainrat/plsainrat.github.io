@@ -46,29 +46,32 @@
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod4.titre"></h1>
             <p>
-                Il y a quelques années, je regardais l'excellente série de vidéo de Ben Eater "Building an 8-bit
-                breadboard computer. Fasciné par les LEDS qui clignotaient frénétiquement à chaque tic de son horloge
-                basé sur un NE555, j'ai eu moi-même l'envie de créer un petit circuit qui fait scintiller des LEDS.
+                Il y a quelques années, je regardais l'excellente série de vidéos du youtubeur Ben Eater « Building an
+                8-bit breadboard computer ». J'ai été particulièrement intéressé par son horloge basée sur un NE555, et
+                j'ai voulu reproduire le principe en l'utilisant dans un circuit plus simple pour faire scintiller des
+                LEDS.
+
             </p>
             <p>
                 J'ai voulu créer un système qui repose uniquement sur des circuits intégrés et des composantes
                 électroniques basiques. En effet, je ne voulais pas utiliser de microcontrôleur, la tache n'aurait eu
                 aucun intérêt d'un point de vue hardware ou software. J'avais envie de créer un circuit qui produit une
                 donnée numérique qui pourrait être comprise et utilisée par un humain, faire quelque chose de pratique
-                et beau. Toujours inspiré par les vidéos de Ben, j'ai donc décidé de faire une horloge.
+                et de beau. Toujours inspiré par les vidéos de Ben, j'ai donc décidé de faire une horloge.
             </p>
             <p>
-                J'ai donc cherché des composants pour accomplir des incrémentations successives rythmé par un
-                l'oscillation régulière d'un autre composant.
-                Pour compter les heures minutes et seconde, j'ai simplement choisi des Ripple-carry binary counters.
-                Grâce à 3 CD4024B de chez Texas instrument, j'ai pu encoder les secondes, minutes et heures de mon
-                horloge en utilisant ses 7 sorties. Les minutes et les secondes sont représentées sur 6 bits chaque, et
-                5 bits pour les heures. Pour réinitialiser les compteurs, j'ai utilisé des quadruples AND gates SN54LS21
-                de chez Texas instrument. Lorsque le compteur atteint sa valeur maximale, on active la broche reset
-                grâce au SN54LS21. Pour l'oscillateur, initialement, je suis parti sur un montage avec un NE555 comme
-                dans la vidéo de Ben. Seulement le NE555 manque de précision et de stabilité à une si basse fréquence.
-                J'ai donc opté pour une méthode plus simple en démontant une vielle horloge cassée et en récupérant son
-                quartz.
+
+                J'ai cherché des composants pour accomplir des incrémentations successives rythmées par l'oscillation
+                régulière d'un autre composant. Pour compter les heures, minutes et secondes, j'ai simplement choisi des
+                Ripple-carry binary counters. Grâce à 3 CD4024B de chez Texas instrument, j'ai pu encoder les heures,
+                minutes et secondes de mon horloge en utilisant ses 7 sorties. Les minutes et les secondes sont
+                représentées sur 6 bits chacun, et 5 bits pour les heures. Pour réinitialiser les compteurs, j'ai
+                utilisé des quadruples AND gates SN54LS21 de chez Texas instrument. Lorsque le compteur atteint sa
+                valeur maximale, on active la broche reset grâce au SN54LS21. Pour l'oscillateur, j'étais initialement
+                parti sur un montage avec un NE555 comme dans la vidéo de Ben. Seulement le NE555 manque de précision et
+                de stabilité à une si basse fréquence. J'ai donc opté pour une méthode plus simple en démontant une
+                vieille horloge cassée et en récupérant son quartz.
+
             </p>
             <p>
                 Ce projet n'a, hélas, jamais quitter la breadboard. Je n'avais pas encore d'imprimante 3D à l'époque et
@@ -81,12 +84,14 @@
 
     <section id="gallery">
         <div id="images-wrapper">
-            <a target="_blank" href="ArticlePortfolio/Binary Clock/img/MontageBreadBoard.jpg"><img src="ArticlePortfolio/Binary Clock/img/MontageBreadBoard.jpg" /></a>
+            <a target="_blank" href="ArticlePortfolio/Binary Clock/img/MontageBreadBoard.jpg"><img
+                    src="ArticlePortfolio/Binary Clock/img/MontageBreadBoard.jpg" /></a>
             <video width=100% height=auto controls>
                 <source src="ArticlePortfolio/Binary Clock/img/VidTic.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <a target="_blank" href="ArticlePortfolio/Binary Clock/img/clockkicad.jpg"><img src="ArticlePortfolio/Binary Clock/img/clockkicad.jpg" /></a>
+            <a target="_blank" href="ArticlePortfolio/Binary Clock/img/clockkicad.jpg"><img
+                    src="ArticlePortfolio/Binary Clock/img/clockkicad.jpg" /></a>
 
         </div>
     </section>

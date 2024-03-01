@@ -44,23 +44,32 @@
 
     <section id="article">
         <div class="row banner">
-            <h1 data-i18n="portfolio.wrapper.mod1.titre"></h1>
+            <h1 data-i18n="portfolio.wrapper.mod5.titre"></h1>
             <p>
-            Broker MQTT sur une RaspberryPi avec Mosquitto.
+                Étant intéressé par les maisons connectées, j'ai voulu essayer d'intégrer ma cafetière dans un système
+                d'automatisation de mon logement.
             </p>
             <p>
-            Cafetière contrôler par un ESP-01 et un mosfet. Allume éteint par message MQTT du broker. Update le statu de la cafetier (éteinte/allumé)
-            avec un publish MQTT.
+                J'ai d'abord choisi Mosquitto comme broker MQTT et je l'ai installé sur un RaspberryPi. J'ai ensuite
+                placé un ESP-01 dans la cafetière, et j'allume et j'éteins la cafetière avec un MOSFET. Je contrôle
+                l'état de la cafetière grâce à des messages MQTT envoyé depuis la RaspberryPi. L'ESP met à jour le
+                statut de la cafetière avec des « publish » MQTT.
+            </p>
+            <p>
+                La prochaine étape serait de l'intégrer dans le système déjà existant de domotique dans mon logement,
+                mais ce n'est pas si facile et je n'ai pas réussi à trouver de solution pour le moment.
             </p>
             <hr />
         </div>
     </section>
 
     <section id="gallery">
-    <div id="images-wrapper">
-        <a target="_blank" href="ArticlePortfolio/Domotique/img/BreadBoard.jpg"><img src="ArticlePortfolio/Domotique/img/BreadBoard.jpg" /></a>
-        <a target="_blank" href="ArticlePortfolio/Domotique/img/cafetiere.jpg"><img src="ArticlePortfolio/Domotique/img/cafetiere.jpg" /></a>
-    </div>
+        <div id="images-wrapper">
+            <a target="_blank" href="ArticlePortfolio/Domotique/img/BreadBoard.jpg"><img
+                    src="ArticlePortfolio/Domotique/img/BreadBoard.jpg" /></a>
+            <a target="_blank" href="ArticlePortfolio/Domotique/img/cafetiere.jpg"><img
+                    src="ArticlePortfolio/Domotique/img/cafetiere.jpg" /></a>
+        </div>
     </section>
 
     <footer>

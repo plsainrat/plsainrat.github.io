@@ -15,7 +15,7 @@
         "h3": "Je suis un <span>ingénieur</span> avec une formation en <span>système et logiciel embarqué</span>. Passionné d'<span>électronique</span> et d'informatique, j'adore explorer différents outils et développer de nouvelles compétences sur mon temps libre. Dans ce site web, je détaille certains de mes <a class=\"smoothscroll\" href=\"#portfolio\"> projets personnels</a>, ainsi que mes <a class=\"smoothscroll\" href=\"#resume\"> compétences et mes  experiences professionnelles</a>."
     },
     "about": {
-        "h2-titre": "À Propos de moi.",
+        "h2-titre": "À propos de moi",
         "text": "",
         "contact": "Comment me contacter",
         "dwl": "Télécharger mon CV"
@@ -38,21 +38,17 @@
             "task": "Tâches ▼",
             "titre1": "Naval Group",
             "desc1": "Ingénieur Développement logiciel<span>&bull;</span><em class=\"date\">2022-2023</em>",
-            "text1": "<em>Projet en diffusion restrainte, je ne peux donc pas entré dans les details de la mission</em></br>Développement en C++ du logiciel coeur système, qui fait l'interface les différents composants du système et l'interface graphique. Le logiciel est découpé en plusieurs module prenant chacun en charge la communication avec un composant.</br> J'étais en charge d'un module en particulier, et je travaillais en étroite collaboration avec un ingénieur système qui s'occupait de définir les éxigences du modules et un ingenieur QA qui était chargé de tester le logiciel. Chaque module a été développé en s'appuyant sur un Framework déjà existant. J'ai integré un équipe d'une dixaine de développeurs avec une méthodologie de travail en cycle en V.",
             "tasklist1": "<li>Tenu d'une documentation technique : Spécification Logiciel</li><li>Prise en main d'un code déjà existant</li><li>Développement de fonctionnalités en <em>C++</em></li><li>Scripts de test, scénario et couverture d'exigence en <em>Python</em></li><li>Test unitaire</li>",
             "tags1": "C/C++/Vim/Eclipse/Git/CentOS/Python",
             "titre2": "Stormshield",
             "desc2": "Ingénieur Système<span>&bull;</span><em class=\"date\">2020-2022",
-            "text2": "Le Client (Stormshield) propose des solutions de Cyber Sécurité tel que des Firewall. De tel produit peuvent être évalué par des organismes tel que l'ANSSI (Agence nationale de la sécurité des systèmes d'information) pour associer au produit un certain \"niveau\" de sécurité.  Le firmware est commun a tout les type de Firewall et c'est la cible de l'évaluation. Le firmware à déjà été certifié au niveau EAL3+ par l'ANSSI. Le but est d'obtenir le niveau EAL4+. Pour cela, il a fallu mettre la documentation technique à jour, la traduire en anglais et aller plus en profondeur dans la description des mécanismes et des interactions entre les différents modules du firmware.",
             "tasklist2": "<li>Traduction de document technique en anglais</li><li>Rédaction de documents technique:Architecture (VPN)</li><li>Rédaction de documents technique:Fonctionnel (IKE, LDAP, IPSEC)</li><li>Exploration du code source via une VM Ubuntu</li>",
             "tags2": "C/C++/TCP/IP/IPSEC/IKE/LDAP/Virtual Box/Vim/GIT/Phabricator/FreeRTOS/Word",
             "desc3": "Ingénieur Logiciel<span>&bull;</span><em class=\"date\">2022",
-            "text3": "En integrant les équipes de QA, ma mission de était d'appliquer des corrections sur le firmware du produit. Pour cela, on prend la sortie d'un logiciel d'analyse de code, \"Coverity\", et on analyse et corrige les erreurs relevées par le logiciel.</br>Avant de pouvoir intégrer cette nouvelle équipe, j'ai d'abords suivis une formation. Il s'agit d'une série d'exercices a faire et des documents à lire pour prendre en main les différents outils utilisé par les équipes de développement.</br> Le but est de se familiariser avec le firmware, les règles de codes ainsi que les processus de mise à jour du firmware et la manipulation des machines de builds.",
             "tasklist3": "<li>Développement de fonction en C</li><li>Debbugage avec GDB</li><li>Build du firmware</li><li>Mise à Jour du firmware sur un firewall physique</li><li>code Peer-review</li>",
             "tags3": "Ubuntu/FreeBSD/C/C++/GDB/Makefile/Git/Phabricator/Arcanist",
             "titre4": "Innovation lab' - ASTEK",
             "desc4": "Stagiaire Ingénieur Chercheur<span>&bull;</span><em class=\"date\">2020",
-            "text4": "Dans le cadre de mon stage de dernière année en école d'ingénieur, j'ai du m'ateler à la conception et au développement d'un modèle mathématique permettant d'exprimer les performances du système de comptage RFID grâce à des équations mathématiques.",
             "tasklist4": "<li>Études et développement d'une technologie innovante</li><li>Rédaction du cahier des charges</li><li>Rédaction et validation des plans de tests</li><li>Développement de logiciels pour communiquer avec le module RFID</li><li>Dimensionnement d'un banc de test motorisé</li><li>Adaptation d'un système existant pour répondre au cahier des charges</li><li> Traitement mathématique des données produites</li>",
             "tags4": "C/Python/Arduino/RFID/Communication Série/Communication courte portée"
         },
@@ -63,6 +59,8 @@
     },
     "portfolio": {
         "h1": "Des projets personnels développés sur mon temps libre",
+        "h2": "Projets realisé pendant ma carrière professionnelle",
+        "h3": "Projets realisé dans le cadre de ma formation",
         "wrapper": {
             "mod1": {
                 "titre": "La Robe de la Lumière",
@@ -87,13 +85,41 @@
             "mod6": {
                 "titre": "Donjons et dragons",
                 "desc": ""
+            },
+            "mod7": {
+                "titre": "Game-Dev",
+                "desc": ""
+            },
+            "mod8": {
+                "titre": "Systeme de navigation embarqué",
+                "desc": "Naval Group"
+            },
+            "mod9": {
+                "titre": "Obtention d'une certification pour un firewall",
+                "desc": "Stormshield"
+            },
+            "mod10": {
+                "titre": "Dimensionnement d'un systeme de comptage par RFID",
+                "desc": "Astek"
+            },
+            "mod11": {
+                "titre": "Apprentissage par probleme autour d'un Cortex-M3",
+                "desc": ""
+            },
+            "mod12": {
+                "titre": "Simultaion d'un microprocesseur 16bit sur FPGA",
+                "desc": ""
+            },
+            "mod13": {
+                "titre": "Creation d'un compilateur",
+                "desc": ""
             }
         },
         "popup": {
             "details": "plus de détails",
             "close": "fermer",
             "mod1": {
-                "desc": "Dans le cadre de sa formation de costumière et accessoiriste, ma partenaire a dû réaliser un costume de théâtre. Elle a choisi de représenter le personnage de la Lumière dans la pièce (mettre en italique le titre) L'Oiseau Bleu de Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aide pour la partie électronique et système embarqué.",
+                "desc": "Dans le cadre de sa formation de costumière et accessoiriste, ma compagne a dû réaliser un costume de théâtre. Elle a choisi de représenter le personnage de la Lumière dans la pièce (mettre en italique le titre) L'Oiseau Bleu de Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aide pour la partie électronique et système embarqué.",
                 "brand": "ESP-01, Dev Web, C++, UpCycling, Impression 3D, CAD"
             },
             "mod2": {
@@ -115,6 +141,34 @@
             "mod6": {
                 "desc": "Depuis quelques années, le jeu de rôle a pris une place importante dans ma vie. Donjon Master passionné ou joueur assidu, j'adore les challenges qu'apporte ce genre de jeu!",
                 "brand": "Communication, Imagination, Collaboration, Organisation, Travail en Equipe "
+            },
+            "mod7": {
+                "desc": "J'aime beaucoup les jeux vidéo, et je trouve très intéressant de voir comment l'informatique peut être utilisée à des fins créatives et artistiques. J'ai eu envie, à mon échelle, de coder un petit jeu vidéo sur Unity pour en découvrir plus sur les tenants et les aboutissants de la création d'un jeu.",
+                "brand": "C#, Programation orienté Objet, Architecture "
+            },
+            "mod8": {
+                "desc": "Ce projet en diffusion restreinte, je ne peux donc pas entrer dans les détails de la mission. J'ai intégré une équipe d'une dizaine de développeurs avec une méthode de travail en cycle en V. Développement en C++ du logiciel cœur système, qui fait l'interface entre les différents composants du système et l'interface graphique. Le logiciel est découpé en plusieurs modules prenant chacun en charge la communication avec un composant. J'étais en charge du module de la navigation, et je travaillais en étroite collaboration avec un ingénieur système qui s'occupait de définir les exigences du module et un ingénieur QA qui était chargé d'intégrer et tester le logiciel. Chaque module a été développé en s'appuyant sur un Framework déjà existant.",
+                "brand": ""
+            },
+            "mod9": {
+                "desc": "Le client (Stormshield) propose des solutions de cybersécurité tel que des firewalls. De tels produits peuvent être évalué par des organismes tels que l'ANSSI (Agence nationale de la sécurité des systèmes d'information) pour associer au produit un certain \"niveau\" de sécurité. Le firmware est commun à tous les type de firewall et c'est la cible de l'évaluation. Le firmware a déjà été certifié au niveau EAL3+ par l'ANSSI. Le but est d'obtenir le niveau EAL4+. Pour cela, il a fallu mettre la documentation technique à jour, la traduire en anglais et aller plus en profondeur dans la description des mécanismes et des interactions entre les différents modules du firmware.<br>En attendant les reponse de l'ANSII, j'ai intégré les équipes de QA. Ma mission était d'appliquer des corrections sur le firmware du produit. Pour cela, on prend la sortie d'un logiciel d'analyse de code \"Coverity\", et on analyse et corrige les erreurs relevées par le logiciel. Avant de pouvoir intégrer cette nouvelle équipe, j'ai d'abord suivi une formation. Il s'agit d'une série d'exercices à faire et des documents à lire pour prendre en main les différents outils utilisés par les équipes de développement. Le but est de se familiariser avec le firmware, les règles de codes ainsi que les processus de mise à jour du firmware et la manipulation des machines de builds",
+                "brand": ""
+            },
+            "mod10": {
+                "desc": "Dans le cadre de mon stage de dernière année en école d'ingénieur, j'ai du m'ateler à la conception et au développement d'un modèle mathématique permettant d'exprimer les performances du système de comptage RFID grâce à des équations mathématiques.",
+                "brand": "Arduino, C, RFID, SPI, Matlab, Python"
+            },
+            "mod11": {
+                "desc": "Lors de ma troisième année en école d'ingénieurs, j'ai effectué un échange avec l'université de Sherbrooke au Canada. J'ai eu la chance d'intégrer un programme avec une méthode de travail totalement différente de ce que j'avais connu jusque la durant mes études.",
+                "brand": ""
+            },
+            "mod12": {
+                "desc": "Lors de ma deuxième année en école d'ingénieurs, nous avions un cours destiné a nous apprendre a manipuler des FPGA. Pour clore le semestre dans cetet amtier enous avions un projet qui s'etallais sur plusieurs semaines pendant lequelles nous avons du produire un code en VHDL pour simuler un micro processeur 8 bits capable de lire des cartouches de gameboy",
+                "brand": "FPGA, VHDL"
+            },
+            "mod13": {
+                "desc": "Lors de ma deuxieme année en écolé d'ingenieurs, nous avons un projet qui s'étallait sur 1 mois à l'issue du quel nous devions produire un compilateur pour un language factice qui resemblait vaguement au Java. Nous étions organisé en groupe de 6, avec 1 represantnat de chaque filieres de l'ecole, et nous devions appliquer une methodologie agile. Contrairement à mes camarades, j'était plus proche de hardware, j'etais donc en charge de la partie du compialteur qui se charge de tradurie le programes en instruction assembleur.",
+                "brand": "C, Java, Asm"
             }
         }
     },
@@ -130,24 +184,24 @@
         },
         "add": "Comment me contacter autrement"
     },
-    "article":{
-        "robe":{
-        "article":"Ma partenaire est diplômé d'un DNMADE (diplôme national des métiers d'art et du design) avec une spécialité en costume et accessoire. Dans le cadre de sa formation, pendant la troisième et dernière année, elle a dû réaliser et designer elle-même un costume sur la pièce de son choix. Elle a choisi de réaliser le costume du personnage de la lumière dans la pièce de l'oiseau bleu de Maeterlinck, une pièce onirique plein de métaphores et de symboles.</br> Elle voulait que le personnage soit capable d'illuminer la scène, de révéler des éléments grâce à des ombres chinoises, de la lumière coloré et de la lumière UV. Nous avons donc écrit ensemble un cahier des charge pour que je puisse dimensionner et commencer à designer un système.</br>Pour le microcontrôleur, j'avais sous la main une poignée <a>d'ESP-01</a>. J'ai donc proposé de contrôler les diffèrent éléments de la robe grâce à une interface web qui serait hébergé sur l'ESP.</br>Pour commencer, nous avons choisi les LEDS à utiliser pour l'éclairage principal de la robe. Nous avons décidé d'acheter un ruban de <a>LEDs 5730</a> blanches à la couleur légèrement chaude, les LEDs sont alimenté en 12V et la puissance dépend de la longueur de ruban qu'on utilise (environ 20Wi/m). Les LEDs sont attachées à une ceinture corset grâce à du velcro. Le dernier rang de LEDs est orienté vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur une baleine en plastique.</br>Pour la lumière colorée et la lumière UV, ma partenaire a conçu des gants couleurs chaires dans lesquelles on pouvait cacher de petites plaquettes sur lesquels on avait prévue de monter des matrices de LEDS. Les gants seraient équipés soient avec des LEDs UV soit avec des LEDs colorées en fonction de la scène. Pour la lumière colorée, nous avons choisi des LEDs adressable WS2812B. Pour la lumière UV, nous avons d'abord essayer un ruban de LEDs UV, mais la lumière UV n'était pas assez intense, nous avons donc acheté des LEDs plus puissantes et j'ai monté une matrice de LEDs moi-même.</br>Pour éviter d'avoir des câbles qui suivent l'acteur, nous avons décidé d'alimenter le système à l'aide d'une batterie. J'ai conçu moi-même 2 batteries en utilisant à chaque fois 3 batteries Li-ion recyclées d'une batterie de PC portable. Les 3 batteries sont tenues dans un boîtier imprimé en 3D avec des emplacements prévus pour presser des bandes de nickel contre les batteries, et ainsi évité d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries et de gérer la charge et la décharge. Nous avions donc 2 batteries de 12V rechargeables et interchangeables avec un courant maximal de 10A en sortie (dimensionné par le circuit de protection de la batterie).</br>Les différents éléments du système sont tous contrôlés par un module ESP-01. Le microcontrôleur était alimenté à l'aide d'un step-down qui permettait de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs adressable. L'ESP-01 possède 8 broches, pour notre projet, nous avons utilisé les broches GPIO0 et GPIO2 pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou la fermeture d'un MOSFET assez costaud pour supporter les 12V et la puissance tirée par les LEDS. L'intensité des LEDs blanches était réglable puisqu'on driver le MOSFET avec une PMW. Pour contrôles les LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit.</br>L'ESP héberge un petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à des broche male/femelle pour permettre de l'installer et de le retirer facilement de l'acteur."
+    "article": {
+        "robe": {
+            "article": "Ma partenaire est diplômé d'un DNMADE (diplôme national des métiers d'art et du design) avec une spécialité en costume et accessoire. Dans le cadre de sa formation, pendant la troisième et dernière année, elle a dû réaliser et designer elle-même un costume sur la pièce de son choix. Elle a choisi de réaliser le costume du personnage de la lumière dans la pièce de l'oiseau bleu de Maeterlinck, une pièce onirique plein de métaphores et de symboles.</br> Elle voulait que le personnage soit capable d'illuminer la scène, de révéler des éléments grâce à des ombres chinoises, de la lumière coloré et de la lumière UV. Nous avons donc écrit ensemble un cahier des charge pour que je puisse dimensionner et commencer à designer un système.</br>Pour le microcontrôleur, j'avais sous la main une poignée <a>d'ESP-01</a>. J'ai donc proposé de contrôler les diffèrent éléments de la robe grâce à une interface web qui serait hébergé sur l'ESP.</br>Pour commencer, nous avons choisi les LEDS à utiliser pour l'éclairage principal de la robe. Nous avons décidé d'acheter un ruban de <a>LEDs 5730</a> blanches à la couleur légèrement chaude, les LEDs sont alimenté en 12V et la puissance dépend de la longueur de ruban qu'on utilise (environ 20Wi/m). Les LEDs sont attachées à une ceinture corset grâce à du velcro. Le dernier rang de LEDs est orienté vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur une baleine en plastique.</br>Pour la lumière colorée et la lumière UV, ma partenaire a conçu des gants couleurs chaires dans lesquelles on pouvait cacher de petites plaquettes sur lesquels on avait prévue de monter des matrices de LEDS. Les gants seraient équipés soient avec des LEDs UV soit avec des LEDs colorées en fonction de la scène. Pour la lumière colorée, nous avons choisi des LEDs adressable WS2812B. Pour la lumière UV, nous avons d'abord essayer un ruban de LEDs UV, mais la lumière UV n'était pas assez intense, nous avons donc acheté des LEDs plus puissantes et j'ai monté une matrice de LEDs moi-même.</br>Pour éviter d'avoir des câbles qui suivent l'acteur, nous avons décidé d'alimenter le système à l'aide d'une batterie. J'ai conçu moi-même 2 batteries en utilisant à chaque fois 3 batteries Li-ion recyclées d'une batterie de PC portable. Les 3 batteries sont tenues dans un boîtier imprimé en 3D avec des emplacements prévus pour presser des bandes de nickel contre les batteries, et ainsi évité d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries et de gérer la charge et la décharge. Nous avions donc 2 batteries de 12V rechargeables et interchangeables avec un courant maximal de 10A en sortie (dimensionné par le circuit de protection de la batterie).</br>Les différents éléments du système sont tous contrôlés par un module ESP-01. Le microcontrôleur était alimenté à l'aide d'un step-down qui permettait de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs adressable. L'ESP-01 possède 8 broches, pour notre projet, nous avons utilisé les broches GPIO0 et GPIO2 pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou la fermeture d'un MOSFET assez costaud pour supporter les 12V et la puissance tirée par les LEDS. L'intensité des LEDs blanches était réglable puisqu'on driver le MOSFET avec une PMW. Pour contrôles les LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit.</br>L'ESP héberge un petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à des broche male/femelle pour permettre de l'installer et de le retirer facilement de l'acteur."
         },
-        "3d":{
-            "article":""
+        "3d": {
+            "article": ""
         },
-        "clap":{
-            "article":""
+        "clap": {
+            "article": ""
         },
-        "clock":{
-            "article":""
+        "clock": {
+            "article": ""
         },
-        "home":{
-            "article":""
+        "home": {
+            "article": ""
         },
-        "dnd":{
-            "article":""
+        "dnd": {
+            "article": ""
         }
     }
 }
