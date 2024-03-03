@@ -35,9 +35,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -45,9 +42,17 @@ header {
 /* vertically center banner section */
 header:before {
    content: '';
-   display: inline-block;
-   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: block;
    height: 100%;
+   width: 100%;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
+   z-index: -1;
+   opacity: 0.5;
 }
 
 header .banner {
@@ -58,6 +63,12 @@ header .banner {
    padding-bottom: 30px;
    text-align: center;
    z-index: 1;
+     margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 header .banner-text {
@@ -402,13 +413,13 @@ ul#nav li.current a {
 }
 
 
-.columnskill{
-   float:left;
+.columnskill {
+   float: left;
    width: 50%;
    padding: 10px;
 }
 
-.rowskills:after{
+.rowskills:after {
    content: "";
    display: table;
    clear: both;
@@ -502,7 +513,13 @@ ul#nav li.current a {
 
 
 .anglais {
-   width: 100%;
+   width: 99%;
+   -moz-animation: anglais 2s ease;
+   -webkit-animation: anglais 2s ease;
+}
+
+.francais {
+   width: 99%;
    -moz-animation: anglais 2s ease;
    -webkit-animation: anglais 2s ease;
 }
@@ -555,7 +572,7 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 100%;
+      width: 99%;
    }
 }
 
@@ -606,9 +623,15 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 100%;
+      width: 99%;
    }
 }
+
+#resume i {
+   color: #ff9933;
+   padding: 20px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -767,10 +790,25 @@ ul#nav li.current a {
 }
 
 @keyframes tilt-shaking {
-  0% { color: #fff; font-size: 13px; }
-  50% { color: #fff; font-size: 13px;}
-  75% { color: #ff9933; font-size: 15px;}
-  100% { color: #fff; font-size: 13px;}
+   0% {
+      color: #fff;
+      font-size: 13px;
+   }
+
+   50% {
+      color: #fff;
+      font-size: 13px;
+   }
+
+   75% {
+      color: #ff9933;
+      font-size: 15px;
+   }
+
+   100% {
+      color: #fff;
+      font-size: 13px;
+   }
 }
 
 .popup-modal .link-box {
@@ -951,24 +989,25 @@ div.descGal {
    clear: both;
 }
 
-#images-wrapper {    
-   line-height: 0;       
-    -webkit-column-count: 5;    
-    -webkit-column-gap: 0px;    
-    -moz-column-count: 5;
-    -moz-column-gap: 0px;
-     column-count: 5;    
-     column-gap: 0px;    
-}  
-#images-wrapper img {    
-   width: 100% !important;    
-   height: auto !important;  
-}  
+#images-wrapper {
+   line-height: 0;
+   -webkit-column-count: 5;
+   -webkit-column-gap: 0px;
+   -moz-column-count: 5;
+   -moz-column-gap: 0px;
+   column-count: 5;
+   column-gap: 0px;
+}
 
-#images-wrapper{    
-   display:inline-block;    
-   margin-right: auto;    
-   margin-left: auto;  
+#images-wrapper img {
+   width: 100% !important;
+   height: auto !important;
+}
+
+#images-wrapper {
+   display: inline-block;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 

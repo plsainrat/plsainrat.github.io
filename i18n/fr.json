@@ -25,9 +25,9 @@
         "education": {
             "titre1": "Université de Sherbrooke",
             "desc1": "Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
-            "tags1": "C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I2C/ SPI/ CAN",
+            "tags1": "C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I<sup>2</sup>C/ SPI/ CAN",
             "titre2": "ENSIMAG - INP Grenoble",
-            "desc2": "Filière Systeme et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
+            "desc2": "Filière Système et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
             "tags2": "Programmation orienté Objet/ Programmation en temps réel/ Base de Données/ Conception de logiciel/ Système d'exploitation/ Algorithmie/ Architecture de microprocesseurs",
             "titre3": "Phelma - INP Grenoble",
             "desc3": "Filière Physique Electronique Télecoms<span>&bull;</span><em  class=\"date\">2016</em>",
@@ -59,8 +59,8 @@
     },
     "portfolio": {
         "h1": "Des projets personnels développés sur mon temps libre",
-        "h2": "Projets realisé pendant ma carrière professionnelle",
-        "h3": "Projets realisé dans le cadre de ma formation",
+        "h2": "Projets réalisés pendant ma carrière professionnelle",
+        "h3": "Projets réalisés dans le cadre de ma formation",
         "wrapper": {
             "mod1": {
                 "titre": "La Robe de la Lumière",
@@ -91,7 +91,7 @@
                 "desc": ""
             },
             "mod8": {
-                "titre": "Systeme de navigation embarqué",
+                "titre": "Système de navigation embarqué",
                 "desc": "Naval Group"
             },
             "mod9": {
@@ -99,15 +99,15 @@
                 "desc": "Stormshield"
             },
             "mod10": {
-                "titre": "Dimensionnement d'un systeme de comptage par RFID",
+                "titre": "Dimensionnement d'un système de comptage par RFID",
                 "desc": "Astek"
             },
             "mod11": {
-                "titre": "Apprentissage par probleme autour d'un Cortex-M3",
+                "titre": "Apprentissage par problème autour d'un Cortex-M3",
                 "desc": ""
             },
             "mod12": {
-                "titre": "Simultaion d'un microprocesseur 16bit sur FPGA",
+                "titre": "Simultaion d'un microprocesseur 8bit sur FPGA",
                 "desc": ""
             },
             "mod13": {
@@ -159,15 +159,15 @@
                 "brand": "Arduino, C, RFID, SPI, Matlab, Python"
             },
             "mod11": {
-                "desc": "Lors de ma troisième année en école d'ingénieurs, j'ai effectué un échange avec l'université de Sherbrooke au Canada. J'ai eu la chance d'intégrer un programme avec une méthode de travail totalement différente de ce que j'avais connu jusque la durant mes études.",
+                "desc": "Lors de ma troisième année en école d'ingénieurs, j'ai effectué un échange avec l'université de Sherbrooke au Canada. J'ai eu la chance d'intégrer un programme avec une méthode de travail totalement différente de ce que j'avais connu jusque la durant mes études : L'apprentissage par problèmes.",
                 "brand": ""
             },
             "mod12": {
-                "desc": "Lors de ma deuxième année en école d'ingénieurs, nous avions un cours destiné a nous apprendre a manipuler des FPGA. Pour clore le semestre dans cetet amtier enous avions un projet qui s'etallais sur plusieurs semaines pendant lequelles nous avons du produire un code en VHDL pour simuler un micro processeur 8 bits capable de lire des cartouches de gameboy",
+                "desc": "Lors de ma deuxième année en école d'ingénieurs, nous avions un cours destiné à nous apprendre à manipuler des FPGA. Notre projet de fin de semestre s'étalait sur plusieurs semaines pendant lesquelles nous devions produire un code en VHDL pour simuler un micro processeur 8 bits capables de lire des cartouches de gameboy.",
                 "brand": "FPGA, VHDL"
             },
             "mod13": {
-                "desc": "Lors de ma deuxieme année en écolé d'ingenieurs, nous avons un projet qui s'étallait sur 1 mois à l'issue du quel nous devions produire un compilateur pour un language factice qui resemblait vaguement au Java. Nous étions organisé en groupe de 6, avec 1 represantnat de chaque filieres de l'ecole, et nous devions appliquer une methodologie agile. Contrairement à mes camarades, j'était plus proche de hardware, j'etais donc en charge de la partie du compialteur qui se charge de tradurie le programes en instruction assembleur.",
+                "desc": "Durant ma deuxième année en école d'ingénieurs, nous avions un projet qui s'étalait sur 1 mois à l'issue duquel nous devions produire un compilateur pour un langage factice qui ressemblait vaguement au Java. Nous étions organisés en groupes de 6, avec un représentant de chaque filière de l'école, et nous devions appliquer une méthodologie agile. Contrairement à mes camarades plus proches du logiciel, j'étais proche du hardware. J'étais donc en charge de la partie du compilateur qui se charge de traduire le programme en instruction assembleur.",
                 "brand": "C, Java, Asm"
             }
         }

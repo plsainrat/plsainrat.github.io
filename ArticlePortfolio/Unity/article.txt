@@ -1,0 +1,16 @@
+Titre:
+
+
+Intro:
+
+
+Article:
+
+Ayant une famille qui aime se retrouver autour du jeu vidéo, j’ai très tôt j'ai essayé de créer mes propres jeux en utilisant des outils simples comme RPG maker ou l’outil de création de map de Warcraft 3, mais j'étais très rapidement limité par mes compétences techniques.
+
+C’est en sortant d'école d'ingénieurs que, armé de nouvelles aptitudes, j’ai décidé d'apprendre à développer un jeu vidéo. Pour cela j’ai utilisé le moteur de jeu vidéo Unity. Le langage de programmation privilégié pour Unity est le C#, et comme j'étais familier avec le C et le C++, je n'ai pas eu de problème à m'adapter.
+
+Internet ne manque pas de documentation et de tutoriel qui montre comment utiliser Unity, je me suis donc on entrainer en réalisant beaucoup de petits projets et en suivant des vidéo Youtube comme celles de "Brackeys".
+
+
+ 
