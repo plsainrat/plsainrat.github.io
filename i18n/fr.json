@@ -21,7 +21,7 @@
         "dwl": "Télécharger mon CV"
     },
     "resume": {
-        "ed": "<span>Formation</span>",
+        "ed": "<span>Formations</span>",
         "education": {
             "titre1": "Université de Sherbrooke",
             "desc1": "Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
@@ -58,7 +58,7 @@
         }
     },
     "portfolio": {
-        "h1": "Des projets personnels développés sur mon temps libre",
+        "h1": "Projets personnels développés sur mon temps libre",
         "h2": "Projets réalisés pendant ma carrière professionnelle",
         "h3": "Projets réalisés dans le cadre de ma formation",
         "wrapper": {
@@ -119,7 +119,7 @@
             "details": "plus de détails",
             "close": "fermer",
             "mod1": {
-                "desc": "Dans le cadre de sa formation de costumière et accessoiriste, ma compagne a dû réaliser un costume de théâtre. Elle a choisi de représenter le personnage de la Lumière dans la pièce (mettre en italique le titre) L'Oiseau Bleu de Maurice Maeterlinck. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aide pour la partie électronique et système embarqué.",
+                "desc": "Dans le cadre de sa formation de costumière et accessoiriste, ma compagne a dû réaliser un costume de théâtre. Elle a choisi de représenter le personnage de la Lumière dans la pièce <i> L'Oiseau Bleu de Maurice Maeterlincki</i>. Pour réaliser la vision qu'elle avait du costume, elle m'a demandé de l'aide pour la partie électronique et système embarqué.",
                 "brand": "ESP-01, Dev Web, C++, UpCycling, Impression 3D, CAD"
             },
             "mod2": {
