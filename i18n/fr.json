@@ -25,32 +25,32 @@
         "education": {
             "titre1": "Université de Sherbrooke",
             "desc1": "Département de Génie informatique<span>&bull;</span><em  class=\"date\">2018</em>",
-            "tags1": "C Embarqué/ RTOS/ Temps réel/ ARM Cortex M/ Réseau/ ZigBee/ Mbed/ DAC/ CAD/ UART/ I<sup>2</sup>C/ SPI/ CAN",
+            "tags1": "C Embarqué,  RTOS,  Temps réel,  ARM Cortex M,  Réseau,  ZigBee,  Mbed,  DAC,  CAD,  UART,  I<sup>2</sup>C,  SPI,  CAN",
             "titre2": "ENSIMAG - INP Grenoble",
             "desc2": "Filière Système et logiciel Embarqué<span>&bull;</span><em  class=\"date\">2017</em>",
-            "tags2": "Programmation orienté Objet/ Programmation en temps réel/ Base de Données/ Conception de logiciel/ Système d'exploitation/ Algorithmie/ Architecture de microprocesseurs",
+            "tags2": "Programmation orientée Objet,  Programmation en temps réel,  Base de Données,  Conception de logiciel,  Système d'exploitation,  Algorithmie,  Architecture de microprocesseurs",
             "titre3": "Phelma - INP Grenoble",
             "desc3": "Filière Physique Electronique Télecoms<span>&bull;</span><em  class=\"date\">2016</em>",
-            "tags3": "Électronique/ Traitement du signale/ Automatique/ Assembleur"
+            "tags3": "Électronique,  Traitement du signal,  Automatique,  Assembleur"
         },
         "wrk": "<span>Experiences</span>",
         "work": {
             "task": "Tâches ▼",
             "titre1": "Naval Group",
             "desc1": "Ingénieur Développement logiciel<span>&bull;</span><em class=\"date\">2022-2023</em>",
-            "tasklist1": "<li>Tenu d'une documentation technique : Spécification Logiciel</li><li>Prise en main d'un code déjà existant</li><li>Développement de fonctionnalités en <em>C++</em></li><li>Scripts de test, scénario et couverture d'exigence en <em>Python</em></li><li>Test unitaire</li>",
-            "tags1": "C/C++/Vim/Eclipse/Git/CentOS/Python",
+            "tasklist1": "<li>Tenu d'une documentation technique : Spécification Logicielle</li><li>Prise en main d'un code déjà existant</li><li>Développement de fonctionnalités en <em>C++</em></li><li>Scripts de test, scénario et couverture d'exigence en <em>Python</em></li><li>Test unitaire</li>",
+            "tags1": "C, C++, Vim, Eclipse, Git, CentOS, Python",
             "titre2": "Stormshield",
             "desc2": "Ingénieur Système<span>&bull;</span><em class=\"date\">2020-2022",
-            "tasklist2": "<li>Traduction de document technique en anglais</li><li>Rédaction de documents technique:Architecture (VPN)</li><li>Rédaction de documents technique:Fonctionnel (IKE, LDAP, IPSEC)</li><li>Exploration du code source via une VM Ubuntu</li>",
-            "tags2": "C/C++/TCP/IP/IPSEC/IKE/LDAP/Virtual Box/Vim/GIT/Phabricator/FreeRTOS/Word",
+            "tasklist2": "<li>Traduction de documents techniques en anglais</li><li>Rédaction de documents techniques : Architecture (VPN)</li><li>Rédaction de documents techniques : Fonctionnel (IKE, LDAP, IPSEC)</li><li>Exploration du code source via une VM Ubuntu</li>",
+            "tags2": "C, C++, TCP/IP, IPSEC, IKE, LDAP, Virtual Box, Vim, GIT, Phabricator, FreeRTOS, Word",
             "desc3": "Ingénieur Logiciel<span>&bull;</span><em class=\"date\">2022",
-            "tasklist3": "<li>Développement de fonction en C</li><li>Debbugage avec GDB</li><li>Build du firmware</li><li>Mise à Jour du firmware sur un firewall physique</li><li>code Peer-review</li>",
-            "tags3": "Ubuntu/FreeBSD/C/C++/GDB/Makefile/Git/Phabricator/Arcanist",
+            "tasklist3": "<li>Développement de fonction en C</li><li>Debbugage avec GDB</li><li>Build du firmware</li><li>Mise à jour du firmware sur un firewall physique</li><li>code Peer-review</li>",
+            "tags3": "Ubuntu, FreeBSD, C, C++, GDB, Makefile, Git, Phabricator, Arcanist",
             "titre4": "Innovation lab' - ASTEK",
             "desc4": "Stagiaire Ingénieur Chercheur<span>&bull;</span><em class=\"date\">2020",
             "tasklist4": "<li>Études et développement d'une technologie innovante</li><li>Rédaction du cahier des charges</li><li>Rédaction et validation des plans de tests</li><li>Développement de logiciels pour communiquer avec le module RFID</li><li>Dimensionnement d'un banc de test motorisé</li><li>Adaptation d'un système existant pour répondre au cahier des charges</li><li> Traitement mathématique des données produites</li>",
-            "tags4": "C/Python/Arduino/RFID/Communication Série/Communication courte portée"
+            "tags4": "C, Python, Arduino, RFID, Communication Série, Communication courte portée"
         },
         "skills": {
             "titre1": "<span> Compétences</span>",
@@ -79,7 +79,7 @@
                 "desc": ""
             },
             "mod5": {
-                "titre": "Home made home automation",
+                "titre": "Domotique faite maison",
                 "desc": ""
             },
             "mod6": {
@@ -155,7 +155,7 @@
                 "brand": ""
             },
             "mod10": {
-                "desc": "Dans le cadre de mon stage de dernière année en école d'ingénieur, j'ai du m'ateler à la conception et au développement d'un modèle mathématique permettant d'exprimer les performances du système de comptage RFID grâce à des équations mathématiques.",
+                "desc": "Pour mon stage de fin d'étude, j'ai integré l'Astek Innovation lab' ou j'ai occupé un poste d'ingenieur chercheur. J'ai du étudier un système de comptage de colis par RFID.",
                 "brand": "Arduino, C, RFID, SPI, Matlab, Python"
             },
             "mod11": {
