@@ -36,152 +36,122 @@
 </head>
 
 <body>
-    <nav id="nav-wrap">
-        
+    <div id="body" style="display: none;">
+        <nav id="nav-wrap">
+
             <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
 
-        <ul id="nav" class="nav">
-            <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
-        </ul>
-    </nav>
+            <ul id="nav" class="nav">
+                <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+                <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+                <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
+            </ul>
+        </nav>
 
-    <section id="article">
-        <div class="row banner">
-            <h1 data-i18n="portfolio.wrapper.mod1.titre"></h1>
-            <p>
-                Ma compagne est diplômée d'un DNMADE (Diplôme National des Métiers d'Art et Du Design) de costumière et
-                accessoiriste. Dans le cadre de sa formation, pendant la troisième et dernière année, elle a dû designer
-                et réaliser elle-même un costume sur la pièce de son choix. Elle a choisi de travailler sur la pièce de
-                théâtre <i>L'Oiseau Bleu de Maurice Maeterlinck</i>, et de réaliser le costume du personnage de la Lumière.
-            </p>
-            <p>
-                Elle voulait que le personnage soit capable, grâce à son costume/accessoire, d'illuminer la scène, de
-                révéler des éléments du décor grâce à des ombres chinoises, de la lumière colorée et de la lumière UV.
-                Nous avons donc écrit ensemble un cahier des charges pour que je puisse dimensionner et commencer à
-                designer un système.
+        <section id="article">
+            <div class="row banner">
+                <h1 data-i18n="portfolio.wrapper.mod1.titre"></h1>
+                <p data-i18n="article.robe.article">
+                </p>
+                <hr />
+            </div>
+        </section>
 
-            </p>
-
-            <p>
-                Pour le microcontrôleur, j'avais sous la main plusieurs <span>ESP-01</span>. J'ai donc proposé de
-                contrôler les différents éléments de la robe grâce à une interface web qui serait hébergée sur l'ESP.
-
-            </p>
-
-            <p>
-                Pour commencer, nous avons choisi les LEDS à utiliser pour l'éclairage principal de la robe. Nous avons
-                décidé d'acheter un ruban de <span>LEDs 5730</span> blanches à la couleur légèrement chaude. Les LEDs
-                sont alimentées en 12V et la puissance dépend de la longueur de ruban qu'on utilise (environ 20Wi/m).
-                Les LEDs sont attachées à une ceinture corsetée grâce à du velcro. Le dernier rang de LEDs est orienté
-                vers le bas grâce à des petites cales imprimé en 3D qui sont fixées sur une baleine en plastique.
-            </p>
-            <p>
-                Pour la lumière colorée et la lumière UV, ma compagne a conçu des gants couleur chaire dans lesquelles
-                on pouvait cacher de petites plaquettes surmontées de matrices de LEDS. L'idée était que les gants
-                puissent être équipés soit avec des LEDs UV soit avec des LEDs colorées en fonction de la scène. Pour la
-                lumière colorée, nous avons choisi des <span>adressable WS2812B</span>. Pour la lumière UV, nous avons
-                d'abord essayé un ruban de LEDs UV, mais la lumière UV n'était pas assez intense, nous avons donc acheté
-                des LEDs plus puissantes et j'ai monté une matrice de LEDs moi-même.
-
-            </p>
-            <p>
-                Pour éviter d'avoir des câbles qui suivent l'actrice, nous avons décidé d'alimenter le système à l'aide
-                d'une batterie. J'ai conçu moi-même deux batteries en utilisant à chaque fois 3 batteries
-                <span>Li-ion</span> recyclées d'une batterie de PC portable. Les trois batteries sont tenues dans un
-                boîtier imprimé en 3D avec des emplacements prévus pour presser des bandes de nickel contre les
-                batteries, et ainsi éviter d'avoir à souder. Un petit circuit imprimé permet de protéger les batteries
-                et de gérer la charge et la décharge. Nous avions donc deux batteries de 12V rechargeables et
-                interchangeables avec un courant maximal de 10A en sortie (dimensionné par le circuit de protection de
-                la batterie).
-
-            </p>
-
-            <p>
-                Les différents éléments du système sont tous contrôlés par un module ESP-01. Le microcontrôleur est alimenté à l'aide d'un step-down qui permet de fournir du 3.3V nécessaires au fonctionnement de l'ESP-01 et des LEDs adressable. L'ESP-01 possède huit broches, et pour notre projet  nous avons utilisé les broches GPIO0 et GPIO2 pour contrôler les LEDs blanches et les LEDs UVs. Pour être plus précis, l'ESP contrôle l'ouverture ou la fermeture d'un <span>MOSFET</span> assez costaud pour supporter les 12V et la puissance tirée par les LEDS. L'intensité des LEDs blanches est réglable puisqu'on drive le MOSFET avec une PMW. Pour contrôler les LEDs adressables, je me suis contenté d'utiliser la librairie Neopixel de Adafruit. 
-
-            </p>
-            <p>
-                L'ESP héberge un petit serveur web avec une page HTML très simple. Sur la page se trouve un slider pour contrôler l'intensité des lumières blanches, un slider pour contrôler la lumière UV et un color-picker pour choisir la couleur des LEDs colorées. Les lumières sont contrôlées en direct sur la robe. Tout le système est contenu dans un boîtier imprimé en 3D et tous les éléments du système sont joints grâce à des broches mâles/femelles pour permettre de l'installer et de le retirer facilement de l'actrice.
-            </p>
-            <hr />
-        </div>
-    </section>
-
-    <section id="gallery">
-        <div id="images-wrapper">
-            <a target="_blank" href="ArticlePortfolio/Robe/img/batterie.jpg"><img src="ArticlePortfolio/Robe/img/batterie.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/batterie2.jpg"><img src="ArticlePortfolio/Robe/img/batterie2.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/cable.jpg"><img src="ArticlePortfolio/Robe/img/cable.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/cableDiag.png"><img src="ArticlePortfolio/Robe/img/cableDiag.png" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/Ceinture + 3D.jpg"><img src="ArticlePortfolio/Robe/img/Ceinture + 3D.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/ceinture.jpg"><img src="ArticlePortfolio/Robe/img/ceinture.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/Gant final.png"><img src="ArticlePortfolio/Robe/img/Gant final.png" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/Lumière aquarelle.jpg"><img src="ArticlePortfolio/Robe/img/Lumière aquarelle.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale.jpg"><img src="ArticlePortfolio/Robe/img/robefinale.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale2.jpg"><img src="ArticlePortfolio/Robe/img/robefinale2.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale3.jpg"><img src="ArticlePortfolio/Robe/img/robefinale3.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/systeme.jpg"><img src="ArticlePortfolio/Robe/img/systeme.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/systeme2.jpg"><img src="ArticlePortfolio/Robe/img/systeme2.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/systeme3.jpg"><img src="ArticlePortfolio/Robe/img/systeme3.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/UV.jpg"><img src="ArticlePortfolio/Robe/img/UV.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/robekicad.jpg"><img src="ArticlePortfolio/Robe/img/robekicad.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/robekicad2.jpg"><img src="ArticlePortfolio/Robe/img/robekicad2.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/cale.jpg"><img src="ArticlePortfolio/Robe/img/cale.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Robe/img/BoiteCAD.jpg"><img src="ArticlePortfolio/Robe/img/BoiteCAD.jpg" /></a>
+        <section id="gallery">
+            <div id="images-wrapper">
+                <a target="_blank" href="ArticlePortfolio/Robe/img/batterie.jpg"><img
+                        src="ArticlePortfolio/Robe/img/batterie.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/batterie2.jpg"><img
+                        src="ArticlePortfolio/Robe/img/batterie2.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/cable.jpg"><img
+                        src="ArticlePortfolio/Robe/img/cable.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/cableDiag.png"><img
+                        src="ArticlePortfolio/Robe/img/cableDiag.png" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/Ceinture + 3D.jpg"><img
+                        src="ArticlePortfolio/Robe/img/Ceinture + 3D.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/ceinture.jpg"><img
+                        src="ArticlePortfolio/Robe/img/ceinture.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/Gant final.png"><img
+                        src="ArticlePortfolio/Robe/img/Gant final.png" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/Lumière aquarelle.jpg"><img
+                        src="ArticlePortfolio/Robe/img/Lumière aquarelle.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale.jpg"><img
+                        src="ArticlePortfolio/Robe/img/robefinale.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale2.jpg"><img
+                        src="ArticlePortfolio/Robe/img/robefinale2.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/robefinale3.jpg"><img
+                        src="ArticlePortfolio/Robe/img/robefinale3.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/systeme.jpg"><img
+                        src="ArticlePortfolio/Robe/img/systeme.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/systeme2.jpg"><img
+                        src="ArticlePortfolio/Robe/img/systeme2.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/systeme3.jpg"><img
+                        src="ArticlePortfolio/Robe/img/systeme3.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/UV.jpg"><img
+                        src="ArticlePortfolio/Robe/img/UV.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/robekicad.jpg"><img
+                        src="ArticlePortfolio/Robe/img/robekicad.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/robekicad2.jpg"><img
+                        src="ArticlePortfolio/Robe/img/robekicad2.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/cale.jpg"><img
+                        src="ArticlePortfolio/Robe/img/cale.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Robe/img/BoiteCAD.jpg"><img
+                        src="ArticlePortfolio/Robe/img/BoiteCAD.jpg" /></a>
 
 
-            <video width=100% height=auto controls>
-                <source src="ArticlePortfolio/Robe/img/WhatsApp Vidéo 2024-02-26 à 10.19.45_4e0a49a3.mp4"
-                    type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+                <video width=100% height=auto controls>
+                    <source src="ArticlePortfolio/Robe/img/WhatsApp Vidéo 2024-02-26 à 10.19.45_4e0a49a3.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
 
 
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <footer>
+        <footer>
 
-        <div class="row">
+            <div class="row">
 
-            <div class="twelve columns">
+                <div class="twelve columns">
 
 
-                <ul class="copyright">
-                    <li>&copy; Copyright 2014 CeeVee</li>
-                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
-                    </li>
-                </ul>
+                    <ul class="copyright">
+                        <li>&copy; Copyright 2014 CeeVee</li>
+                        <li>Design by <a href="http://www.styleshout.com/" title="Styleshout"
+                                target="_blank">Styleshout</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
+                            class="icon-up-open"></i></a>
+                </div>
 
             </div>
 
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
-                        class="icon-up-open"></i></a>
-            </div>
 
-        </div>
+        </footer> <!-- Footer End-->
 
-
-    </footer> <!-- Footer End-->
-
-    <!-- Java Script
+        <!-- Java Script
    ================================================== -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/lang.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/magnific-popup.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/lang.js"></script>
 
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

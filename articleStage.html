@@ -36,31 +36,22 @@
 </head>
 
 <body>
+    <div id="body" style="display: none;">
     <nav id="nav-wrap">
             <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
         <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
         </ul>
     </nav>
 
     <section id="article">
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod10.titre"></h1>
-            <p>
-            Dans le cadre de mon stage de dernière année en école d'ingénieurs, j'ai travaillé sur la conception et le développement d'un modèle mathématique permettant d'exprimer les performances du système de comptage <span>RFID</span> grâce à des équations mathématiques. 
-            </p>
-            <p>
-            Nous étions trois stagiaires, mais devions travailler en autonomie. Nous occupions des postes d'ingénieurs chercheurs, et devions produire une documentation détaillée sur l'état d'avancement du projet (état de l'art, cahier des charges, architecture). Chacun avait en charge une technologie différente pour le comptage de colis dans un entrepôt de stockage. 
-            </p>
-        <p>
-            Après avoir dimensionné l'environnement dans lequel serait déployé le système, j'ai dû choisir les composants qui forment le système. J'ai décidé de partir sur l'option « low cost » avec des composants qui me sont familiers : un <span>Arduino</span> et un shield Arduino RFID. 
-            </p>
-            <p>
-            J'ai moi-même codé le logiciel du Arduino pour driver le module RFID en SPI. J'ai également codé un petit programme en <span>C</span> pour communiquer avec le Arduino et compiler les données recueillies dans des fichiers XML.  
-            </p>
-            <p>
-            J'ai défini plusieurs plans de tests pour recueillir le maximum de données sur le système, avec des configurations différentes. Au final j'ai traité les données grâce à <span>Python</span> et <span>Matlab</span>, pour obtenir un modèle mathématique du système et des représentations graphiques de ces performances.
+            <p data-i18n="article.stage.article">
+
             </p>
             <hr />
         </div>
@@ -126,7 +117,7 @@
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

@@ -36,52 +36,21 @@
 </head>
 
 <body>
+    <div id="body" style="display: none;">
     <nav id="nav-wrap">
             <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
         <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
         </ul>
     </nav>
 
     <section id="article">
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod3.titre"></h1>
-            <p>
-                Ce petit jouet que j'ai ramené du Canada ne paie pas de mine comme ça, mais c'est un souvenir qui compte
-                pour moi. Le bouton était abîmé et la luminosité des LEDS laissait à désirer, j'ai donc voulu modifier
-                l'arc-en-ciel pour l'améliorer.
-
-            </p>
-            <p>
-                Tout d'abord, j'ai remplacé les 3 batteries par quelque chose de plus pratique. J'avais sous la main une
-                batterie de PC portable, je l'ai donc ouverte pour récupérer une pile rechargeable de 3.7V. Je l'ai
-                branché au reste du système avec un petit circuit imprimé qui prend en charge la recharge de la batterie
-                par USB et régule l'alimentation du système.
-
-            </p>
-            <p>
-                La partie la plus intéressante du projet a été le remplacement du bouton. Je ne voulais pas me contenter
-                de remplacer le bouton par un autre, je voulais être capable d'allumer et d'éteindre l'arc-en-ciel la
-                distance. J'ai pensé au cliché du gars allongé dans son lit qui éteint les lumières en claquant des
-                mains, j'ai donc cherché à remplacer le bouton par un "Clap switch".
-
-            </p>
-            <p>
-                J'ai d'abord démonté un vieux téléphone fixe pour récupérer un petit micro. J'ai amplifié le signal qui
-                en sortait avec un simple amplificateur audio de <span>type A</span> avec <span>2 transistors bipolaires</span>.
-
-            </p>
-            <p>
-                Puis, j'ai cherché un moyen de simuler le comportement du bouton d'origine qui restait en position
-                ouverte ou fermée. J'ai trouvé plusieurs montages utilisant des transistors bipolaires et un
-                condensateur pour réaliser un <span>"Soft Latch Circuit"</span> qui permet de passer d'un état ouvert à un état fermé
-                sur le contrôle d'une impulsion.
-            </p>
-            <p>
-                Je me suis ensuite aidé de <span>Kicad</span> pour dessiner le circuit et réaliser le routage. Je n'avais pas envie
-                de réaliser ou de commander un PCB, j'ai donc monté le circuit sur une protoboard avant de l'installer
-                dans l'arc-en-ciel.
+            <p data-i18n="article.clap.article">
             </p>
             <hr />
         </div>
@@ -143,7 +112,7 @@
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

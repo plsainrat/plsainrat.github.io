@@ -36,72 +36,21 @@
 </head>
 
 <body>
+    <div id="body" style="display: none;">
     <nav id="nav-wrap">
         <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
         <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
         <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
-            <li><a class="smoothscroll" href="" title="Comming Soon">[ EN</a></li>
-            <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
         </ul>
     </nav>
 
     <section id="article">
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod6.titre"></h1>
-            <p>
-                Lors du premier confinement, j'ai offert à ma famille "Tabletop Simulator". Ce logiciel permet aux
-                amateurs de jeux de société de se retrouver autour d'une table virtuelle (malgré les restrictions
-                sanitaires en vigueur à ce moment-là). En explorant le contenu de base du logiciel, j'ai découvert des
-                outils et des miniatures qui permettaient de jouer à Donjons et Dragons. Cela m'a donné envie
-                d'apprendre les règles de Donjons et Dragons.
-            </p>
-            <p>
-                Après avoir visionné toutes les saisons de la série de jeu de rôle "Dimensions 20" et avoir potassé le
-                "Player Handbook" et le "Dungeon Master Guide", j'étais enfin prêt à guider mon groupe d'aventuriers
-                pour leur campagne initiatique. J'ai vite réalisé que prendre des notes dans un cahier ne sera pas
-                suffisant. J'ai donc cherché à mettre en place un système qui me permettrait d'organiser traces de
-                chaque session de jeu efficacement.
-            </p>
-            <p>
-                J'ai alors découvert Notion. Cet outil en ligne m'a permis d'organiser mes notes en pages et en
-                sous-pages, mais la fonctionnalité la plus intéressante est de créer une base de données. Acteur, PNJ,
-                ville, clan … tous les éléments de la campagne et du monde que j'ai créé sont stockés dans une base de
-                données. Ainsi, moi comme mes joueurs pouvons facilement retrouver des informations de campagnes passées
-                en quelques cliques.
-            </p>
-            <p>
-                Le logiciel "Tabletop Simulator" est open source et facilement modelable avec des plugins de la
-                communauté ou avec ses propres scripts en Lua. Je ne suis pas très familier avec ce langage, mais j'ai
-                tout de même scripté quelques fonctionnalités qui étaient propres à ma campagne.
-            </p>
-            <p>
-
-                J'ai récemment fait l'acquisition d'un autre logiciel de Virtual Table Top nommé "Fundry VTT" que je
-                commence tout juste à prendre en main! J'ai changé de logiciel car Fundry VTT est un logiciel de
-                «Virtual Table Top» adapté aux jeux de rôle comme Donjons et Dragons, là où «Tabletop Simulator»
-                était un logiciel pour les jeux de société en général. Dans «Fundry VTT», la logique du jeu de rôle
-                est déjà en place, c'est idéal pour gérer des fiches de personnages, ajouter des sorts...
-            </p>
-            <p>
-                En plus de ma campagne virtuelle, j'ai aussi dirigé et participé à de nombreux one-shots en réel. Pour
-                ces parties, inspirées par le travail de Rick Perry pour «Dimension 20» et de Julien Mindel pour «La
-                Bonne Auberge», j'ai voulu moi-même réaliser mes propres décors et battle maps. En suivant des vidéos
-                tutorielles sur Youtube, je me sus vite rendu compte que le polystyrène extrudé était une matière idéale
-                pour le modélisme, mais la meilleure façon de la couper était d'utiliser une découpeuse à fil chaud.
-            </p>
-            <p>
-                Ne voulant pas dépenser près de 100 euros pour ce type de machine, j'ai décidé de me la faire moi-même.
-                J'avais presque tout ce dont j'avais besoin sous la main, à part un fil de nichrome. Grâce à un
-                calculateur en ligne, j'ai pu trouver la bonne longueur de fil ainsi que le courant qui devait le
-                traverser pour réussir à découper correctement la mousse. J'ai utilisé une alimentation, dont j'ai
-                oublié la fonction d'origine, et un potentiomètre pour contrôler la température du fil de nichrome.
-            </p>
-            <p>
-                Grâce à cette machine, j'ai pu découper plusieurs sets de tuiles de tailles et de formes différentes.
-                Après les avoir texturées et peintes, j'ai pu réaliser 2 sets de tuiles modulables pour créer des
-                battles maps et des donjons différents. J'ai également utilisé mon imprimante 3D pour imprimer des
-                éléments de décor ainsi que les figurines de mes personnages.
+            <p data-i18n="article.dnd.article">
             </p>
             <hr />
         </div>
@@ -205,7 +154,7 @@
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

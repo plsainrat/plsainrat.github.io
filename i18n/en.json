@@ -1,74 +1,204 @@
 {
-    "nav":{
-        "mobil":{
-            "show":"Show navigation",
-            "hide":"Hide navigation"
+    "nav": {
+        "mobil": {
+            "show": "Show Navigation",
+            "hide": "Hide Navigation"
         },
-        "home":"Home",
-        "about":"About",
-        "resume":"Resume",
-        "work":"Personnal Projects",
-        "contact":"Contact"
+        "home": "home",
+        "about": "Me",
+        "resume": "My Career",
+        "work": "Portfolio",
+        "contact": "Contact"
     },
     "banner-text": {
-        "h1":"I'm Paul Sainrat.",
-        "h3":""
+        "h1": "I am Paul Sainrat",
+        "h3": "I am an <span>engineer</span> with a background in <span>embeded software</span>. Passionate about <span>electronics</span> and <span>computer science</span>,  i love to explore differents tools and developing news skills. On this website, i detail some of my <a class=\"smoothscroll\" href=\"#portfolio\"> personal projects</a>, as well as my <a class=\"smoothscroll\" href=\"#resume\"> professional skills and experiences </a>."
     },
-    "about":{
-        "h2-titre":"",
-        "text":"",
-        "contact":"",
-        "dwl":""
+    "about": {
+        "h2-titre": "About me",
+        "text": "",
+        "contact": "How to contact me",
+        "dwl": "Download my CV"
     },
-    "resume":{
-        "ed":"",
-        "education":{
-            "titre1":"",
-            "desc1":"",
-            "date1":"",
-            "text1":""
+    "resume": {
+        "ed": "<span>Education</span>",
+        "education": {
+            "titre1": "University of Sherbrooke",
+            "desc1": "Department of Computer Engineering<span>&bull;</span><em  class=\"date\">2018</em>",
+            "tags1": "embeded C,  RTOS,  Real-time,  ARM Cortex M,  Network,  ZigBee,  Mbed,  DAC,  CAD,  UART,  I<sup>2</sup>C,  SPI,  CAN",
+            "titre2": "ENSIMAG - INP Grenoble",
+            "desc2": "Embeded System and Software<span>&bull;</span><em  class=\"date\">2017</em>",
+            "tags2": "Object Oriented Programming,  Real-time Programming, DataBase, Software design, Operating System,  Algorithm,  microprocessors architecture",
+            "titre3": "Phelma - INP Grenoble",
+            "desc3": "Physic Electronic Telecoms<span>&bull;</span><em  class=\"date\">2016</em>",
+            "tags3": "Électronic, Signal Processing ,  Automation,  Assembly language"
         },
-        "wrk":"",
-        "work":{
-            "titre1":"",
-            "desc1":"",
-            "date1":"",
-            "text1":""
+        "wrk": "<span>Experiences</span>",
+        "work": {
+            "task": "Tâches ▼",
+            "titre1": "Naval Group",
+            "desc1": "Software Developper Engineer<span>&bull;</span><em class=\"date\">2022-2023</em>",
+            "tasklist1": "<li>Writing technical documentation : Software specification</li><li>Familiarization with an existing codebase</li><li>Features development in <em>C++</em></li><li>Writing test scripts, scenario and requirement coverage in <em>Python</em></li><li>Unitary testing</li>",
+            "tags1": "C, C++, Vim, Eclipse, Git, CentOS, Python",
+            "titre2": "Stormshield",
+            "desc2": "System engineer<span>&bull;</span><em class=\"date\">2020-2022",
+            "tasklist2": "<li>Translation of technical documentation</li><li>Writing of technical documentation : Architecture (VPN)</li><li>Writing of technical documentation : Design Spectification (IKE, LDAP, IPSEC)</li><li>Familiarization of existing codebase through an Ubuntu VM</li>",
+            "tags2": "C, C++, TCP/IP, IPSEC, IKE, LDAP, Virtual Box, Vim, GIT, Phabricator, FreeRTOS, Word",
+            "desc3": "Software engineer<span>&bull;</span><em class=\"date\">2022",
+            "tasklist3": "<li>Feature developpment in C</li><li>Debug with GDB</li><li>Firmware build</li><li>firmware update an a physical firewall</li><li>code Peer-review</li>",
+            "tags3": "Ubuntu, FreeBSD, C, C++, GDB, Makefile, Git, Phabricator, Arcanist",
+            "titre4": "Innovation lab' - ASTEK",
+            "desc4": "trainee engineer at Asteks Innovation lab'<span>&bull;</span><em class=\"date\">2020",
+            "tasklist4": "<li>Research and development of an innovation technology</li><li>Drafting of the specification document</li><li>Writing and validating test plans</li><li>Software development for the connection with the RFID module</li><li>design of a motorize test bench</li><li>Adfapting existing system to meet specifgications</li><li>Mathematical processing of the generated data</li>",
+            "tags4": "C, Python, Arduino, RFID, Serial communication , short range Communication "
         },
-        "skills":{
-            "titre1":"",
-            "desc1":""
+        "skills": {
+            "titre1": "<span> Skills</span>",
+            "desc1": ""
         }
     },
-    "portfolio":{
-        "h1":"",
-        "wrapper":{
-            "mod1":{
-                "titre":"",
-                "desc":""
+    "portfolio": {
+        "h1": "Personal Projects realised in my free time",
+        "h2": "Projects completed during my professional career",
+        "h3": "Projects completed during my education",
+        "wrapper": {
+            "mod1": {
+                "titre": "the Dress of the Light",
+                "desc": ""
+            },
+            "mod2": {
+                "titre": "3D printing and 3D printer",
+                "desc": ""
+            },
+            "mod3": {
+                "titre": "Clap switch",
+                "desc": ""
+            },
+            "mod4": {
+                "titre": "Binary Clock, return to the basics",
+                "desc": ""
+            },
+            "mod5": {
+                "titre": "Home made home automation",
+                "desc": ""
+            },
+            "mod6": {
+                "titre": "Donjons and dragons",
+                "desc": ""
+            },
+            "mod7": {
+                "titre": "Game-Dev",
+                "desc": ""
+            },
+            "mod8": {
+                "titre": "Embeded navigation system",
+                "desc": "Naval Group"
+            },
+            "mod9": {
+                "titre": "Getting a certificat for a firewall's software",
+                "desc": "Stormshield"
+            },
+            "mod10": {
+                "titre": "Scaling a RFID counting system",
+                "desc": "Astek"
+            },
+            "mod11": {
+                "titre": "Problem-based education around a Cortex-M3",
+                "desc": ""
+            },
+            "mod12": {
+                "titre": "Simulating an 8bit microprocessor on FPGA",
+                "desc": ""
+            },
+            "mod13": {
+                "titre": "Coding a Compiler",
+                "desc": ""
             }
-
         },
-        "popup":{
-            "details": "",
-            "close":"",
-            "mod1":{
-                "desc":"",
-                "brand":""
+        "popup": {
+            "details": "more details",
+            "close": "close",
+            "mod1": {
+                "desc": "As part of her training as a costume designer and accessorist, my partner had to create a theater costume. She chose to represent the character of the Light in the play <i>L'Oiseau Bleu</i> by Maurice Maeterlinck. To bring her vision of the costume to life, she asked me for help with the electronics and embedded systems part",
+                "brand": "ESP-01, Dev Web, C++, UpCycling, 3D Printing, CAD"
+            },
+            "mod2": {
+                "desc": "During the first lockdown, I was interested in 3D printing. I ordered a DIY printer kit and quickly got involved.",
+                "brand": "CAD, Impression 3D, Autonomie"
+            },
+            "mod3": {
+                "desc": "I brought back a toy from my exchenge semester in Canada, it is a pink plastic rainbow that project colorful lights. I wanted to hack it in order to make it more powerful and improve its battery life as well as making it more convienient.",
+                "brand": "Upcycling, Electronic, Kicad"
+            },
+            "mod4": {
+                "desc": "In this project, i wanted to make a binary clock ! I wanted it realy simple, only by using basic components and no microcontroller.",
+                "brand": "Kicad, Electronic, ICs"
+            },
+            "mod5": {
+                "desc": "While exploring projects that internet users have accomplished with their Raspberry Pi, I came across several DIY home automation projects. I wanted to try installing a small home automation system myself using a Raspberry Pi.",
+                "brand": "ESP-01, RaspberryPi, C++, Platformio, MQTT"
+            },
+            "mod6": {
+                "desc": "For a couple of years now, role-playing games have take a significant place in my life. Whether as a passionate Dungeon Master or a dedicated player, I love the challenges that this genre of game brings!",
+                "brand": "Communication, Imagination, Collaboration, Organisation, team work "
+            },
+            "mod7": {
+                "desc": "I really enjoy video games, and I find it fascinating to see how computer science can be used for creative and artistic purposes. I wanted, on my own scale, to code a small video game on Unity to learn more about the ins and outs of game development.",
+                "brand": "C#, Object oriented programming, Architecture "
+            },
+            "mod8": {
+                "desc": "I joined a team of around ten developers using a V-cycle work method. I worked on the C++ development of the core system software, which acts as the interface between the various system components and the graphical user interface. The software is divided into several modules, each responsible for communication with a specific component. I was responsible for the navigation module and worked closely with a systems engineer who defined the module's requirements and a QA engineer who integrated and tested the software. Each module was developed based on an existing framework. Due to the restricted cirtculation of this project, I cannot provide further details of the mission.",
+                "brand": ""
+            },
+            "mod9": {
+                "desc": "The client (Stormshield) offers cybersecurity solutions such as firewalls. Such productsmust be evaluated by the ANSSI (Agence nationale de la sécurité des systèmes d'information) to assign a certain level of security to the product. The firmware is common to all their type of firewalls and is the target of the evaluation. The firmware has already been certified at EAL3+ level by ANSSI. The goal is to achieve EAL4+ level. To do this, it was necessary to update the technical documentation, translate it into English, and dig deeper into the description of the mechanisms and interactions between the various firmware modules. While awaiting responses from ANSSI, I joined the QA teams. My mission was to apply patchs to the product's firmware. For this purpose, we take the output of a code analysis software, \"Coverity\" and analyze and correct the errors detected by the software. Before being able to join this new team, I first underwent training. This involves a series of exercises and documents to read to familiarize with the various tools used by the development teams. The goal is to become familiar with the firmware, code rules, firmware update processes, and handling of the build machines.",
+                "brand": ""
+            },
+            "mod10": {
+                "desc": "For my last-year internship, I joined Asteks Innovation Lab' where I held a position similar to a research engineer. I had to study a counting system using RFID technology.",
+                "brand": "Arduino, C, RFID, SPI, Matlab, Python"
+            },
+            "mod11": {
+                "desc": "During my third year in engineering school, I participated in an exchange program with the University of Sherbrooke in Canada. I had the opportunity to join a program with a completely different working method than what I had experienced until then: Problem-Based Learning.",
+                "brand": ""
+            },
+            "mod12": {
+                "desc": "During my second year in engineering school, we had a course aimed at teaching us how to manipulate FPGAs. For our end-of-semester project we had to produce VHDL code to simulate an 8-bit microprocessor capable of reading Gameboy cartridges",
+                "brand": "FPGA, VHDL"
+            },
+            "mod13": {
+                "desc": "During my second year in engineering school, we had a month-long project where we had to produce a compiler for a fake language that vaguely resembled Java. We were organized into groups of 6, with a representative from each major of the school. Unlike my classmates who were more focused on software, I was closer to hardware. Therefore, I was in charge of the part of the compiler that translates the program into assembly instructions.",
+                "brand": "C, Java, Asm"
             }
         }
-
     },
-    "contact":{
-        "title":"",
-        "desc":"",
-        "form":{
-            "name":"",
-            "email":"",
-            "subj":"",
-            "mess":"",
-            "sub":""
+    "article": {
+        "robe": {
+            "article": "<p>My partner graduated with a DNMADE (National Diploma in Art and Design Professions) in costume design and accessories. As part of her training, during the third and final year, she had to design and create a costume based on a play of her choice. She chose to work on Maurice Maeterlinck's play <i>L'Oiseau Bleu</i> and create the costume for the character of the Light. </p> <p> She wanted the character to be capable of illuminating the stage, revealing elements of the set through shadow play, colored light, and UV light, all thanks to her costume/accessory. So, together, we drafted a specification document for me to designing a system. </p> <p> For the microcontroller, I had several <span>ESP-01</span> modules on hand. Therefore, I proposed controlling the different elements of the dress through a web interface hosted on the ESP. </p> <p> To start, we selected the LEDs to use for the main lighting of the dress. We decided to purchase a strip of warm white <span>5730 LEDs</span>. The LEDs are powered by 12V, and the power consumption depends on the length of the strip used (approximately 20W/m). The LEDs are attached to a corset belt using Velcro. The last row of LEDs is directed downwards using small 3D-printed spacers fixed to a plastic whalebone. </p> <p> For the colored light and UV light, my partner designed flesh-colored gloves in which we could hide small plates topped with LED matrices. The idea was that the gloves could be equipped with either UV LEDs or colored LEDs depending on the scene. For the colored light, we chose <span>addressable WS2812B</span> LEDs. For the UV light, we initially tried a UV LED strip, but the UV light wasn't intense enough, so we bought more powerful individual LEDs, and I assembled a LED matrix myself. </p> <p> To avoid having cables following the actress, we decided to power the system with a battery. I designed two batteries myself, each using 3 <span>Li-ion</span> batteries salvaged from a laptop battery. The three batteries are held in a 3D-printed case with slots designed to press nickel strips against the batteries, avoiding the need for spot soldering. A small circuit board protects the batteries and manages charging and discharging. Thus, we had two rechargeable 12V batteries with a maximum output current of 10A (sized by the battery protection circuit). </p> <p> All the different elements of the system are controlled by an ESP-01 module. The microcontroller is powered by a step-down converter providing the 3.3V required for the operation of the ESP-01 and the addressable LEDs. The ESP-01 has eight pins, and for our project, we used GPIO0 and GPIO2 pins to control the white LEDs and UV LEDs. To be more precise, the ESP controls the opening or closing of a <span>MOSFET</span> robust enough to support 12V and the power drawn by the LEDs. The intensity of the white LEDs is adjustable since we drive the MOSFET with PWM. To control the addressable LEDs, I simply used the Neopixel library from Adafruit. </p> <p> The ESP hosts a small web server with a very simple HTML page. The page includes a slider to control the intensity of the white lights, a slider to control the UV light, and a color picker to choose the color of the colored LEDs. The lights are controlled directly on the dress. The entire system is contained in a 3D-printed enclosure, and all the system's elements are connected using male/female pins to allow for easy installation and removal from the actress.</p>"
         },
-        "add":""
+        "3d": {
+            "article": "I often browse hacker/maker sites such as Hackster.io or Hackaday... and I've noticed how 3D printers quickly transitioned from cutting-edge technology to a very accessible hobby with lots of applications. During the lockdown, I found myself with quite a bit free time and felt like investing in a DIY 3D printer kit! I roam through numerous forums in search of the right printer, ultimately I decided to purchase the <span>Prusa I3 Pro B</span> by Geeetech. I wanted to start with a low-cost DIY printer because I was more interested in the principle of 3D printing than the printer itself. I wanted a machine that works because I made it work, not because of its price tag.</p><p>Once my printer came to life and I successfully printed my first benchy, I turned to free or open-source CAD tools. So, I learned to use <span>FreeCAD</span> and <span>Fusion360</span> to create my own designs without relying on what has been uploaded by the 3D printing enthusiast community.</p>              <p>I initially created everyday objects like shelf accessories, a soap dish, or lamp fixtures as well as more artistic object such as a small Japanese doll.              </p>              <p>With these first designs, I mastered the tools and was able to realize my first projects! I set out to hack my wireless controller. I replaced the 3 AA batteries with a rechargeable <span>Li-ion</span> battery salvaged from a dead laptop battery.</p>             <p> I also designed and printed a frame for a screen that I created from a dead laptop screen. The frame, placed on a 3D-printed stand, can switch from a standard horizontal position to an ideal vertical position for coding!"
+        },
+        "clap": {
+            "article": "This little toy I brought back from Canada may not look like much, but it's a meaningful souvenir for me. The button was damaged, and the LED were quite dim, so I wanted to modify the rainbow to improve it.</p>             <p>                Firstly, I replaced the 3 batteries with something more practical. I had a laptop battery on hand, so I opened it up to salvage a rechargeable 3.7V cell. I connected it to the rest of the system with a small circuit board that supports battery charging via USB and regulates the system's power.</p>             <p>The most interesting part of the project was replacing the button. I didn't just want to replace the button with another; I wanted to be able to turn the rainbow on and off from a distance. I thought of the stereotype of the guy lying in bed turning off the lights by clapping, so I looked into replacing the button with a \"Clap switch\".</p>             <p>                 First, I disassembled an old landline phone to salvage a small microphone. I amplified the signal it produced with a simple type A audio amplifier with <span>2 bipolar transistors</span>.</p>             <p>Then, I looked for a way to simulate the behavior of the original button, which remained in either an open or closed position. I found several circuits using bipolar transistors and a capacitor to create a <span>\"Soft Latch Circuit\"</span> that allows switching from an open state to a closed state on the control of an impulse.</p>             <p>I then used <span>Kicad</span> to draw the circuit and perform the routing. I didn't want to make or order a PCB, so I mounted the circuit on a protoboard before installing it in the rainbow."
+        },
+        "clock": {
+            "article": "A few years ago, I was watching the excellent video series by YouTuber <span>Ben Eater</span> titled <i>'Building an 8-bit breadboard computer'</i> I was particularly interested in his clock based on a <span>NE555</span>, and I wanted to reproduce the principle by using it in a simpler circuit to make a couple of LEDs blink.</p>             <p>                 I wanted to make a system that relies solely on integrated circuits and basic electronic components. I didnt want to use a microcontroller; the task would have had no interest from a hardware or software perspective. I wanted to create a circuit that produces digital data that could be understood and used by a human, to do something practical and beautiful. Still inspired by Ben's videos, I decided to make a clock.</p>             <p>I searched for components to accomplish successive increments paced by the regular oscillation of another component. To count the hours, minutes, and seconds, I simply chose Ripple-carry binary counters. Thanks to 3 <span>CD4024B</span> from Texas Instruments, I was able to encode the hours, minutes, and seconds of my clock using its 7 outputs. The minutes and seconds are represented on 6 bits each, and 5 bits for the hours. To reset the counters, I used quadruple AND gates <span>SN54LS21</span> from Texas Instruments also. When the counter reaches its maximum value, we activate the reset pin thanks to the SN54LS21. For the oscillator, I initially started with a setup using a NE555 as in Ben's video. However, the NE555 lacks precision and stability at such a low frequency. So I opted for a simpler method by dismantling an old broken clock and salvaging its quartz.</p>             <p>Unfortunately, this project never left the breadboard. I didn't have a 3D printer at the time, and I couldn't find a case for the clock that I liked."
+        },
+        "home": {
+            "article": "I was interested in smart homes, and I wanted to try integrating my coffee maker into a home automation system.</p>             <p> Firstly, I chose <span>Mosquitto</span> as the MQTT broker and installed it on a <span>Raspberry Pi</span>. Then, I placed an <span>ESP-01</span> inside the coffee maker, i used it to turn the coffee maker on and off with a <span>MOSFET</span>. I control the coffee maker's state using MQTT messages sent from the Raspberry Pi. The ESP updates the coffee maker's status with MQTT 'publish' messages.</p>             <p>                 The next step would be to integrate it into the existing home automation system in my house, but it's not so easy, and I haven't found a solution for it yet."
+        },
+        "dnd": {
+            "article": "During the first lockdown, I gifted my family 'Tabletop Simulator.' This software allows us, board game enthusiasts, to gather around a virtual table (despite the health restrictions in place at the time). While exploring the basic content of the software, I discovered tools and miniatures that could be used to play Dungeons and Dragons. This sparked my interest in learning the rules of this game.</p>             <p> After watching all the seasons of the role-playing series 'Dimension 20' and studying the 'Player Handbook' and the 'Dungeon Master Guide,' I was finally ready to guide my group of adventurers for their inaugural campaign. I quickly realized that taking notes in a notebook would not be sufficient. So, I sought to establish a system that would allow me to organize traces of each gaming session effectively. </p>             <p>                 That's when I discovered Notion. This online tool allowed me to organize my notes into pages and sub-pages, but the most interesting feature is creating a database. Actors, NPCs, cities, clans... all the elements of the campaign and the world I created are stored in a database. This way, both me and my players can easily find information from past campaigns with just a few clicks.</p>             <p>The software 'Tabletop Simulator' is open source and easily customizable with community plugins or with its own Lua scripts. I'm not very familiar with this language, but I still scripted a few features specific to my campaign.             </p>             <p>I recently acquired another Virtual Tabletop software called 'Foundry VTT' which I'm just starting to get the hang of! I switched software because Foundry VTT is specifically made for role-playing games like Dungeons and Dragons, whereas 'Tabletop Simulator' is a software for board games in general. In Foundry VTT, the logic of the role-playing game is already in place, making it ideal for managing character sheets, adding spells, etc.           </p>             <p> In addition to my virtual campaign, I have also directed and participated in many real-life one-shots. For these games, inspired by the work of Rick Perry for 'Dimension 20' and Julien Mindel for 'La Bonne Auberge,' I wanted to create my own scenery and battle maps. Following tutorial videos on YouTube, I quickly realized that extruded polystyrene was an ideal material for modeling, but the best way to cut it was to use a hot wire cutter.    </p>             <p> Not wanting to spend nearly 100 euros on this type of machine, I decided to make it myself. I had almost everything I needed on hand, except for a nichrome wire. Thanks to an online calculator, I was able to find the right length of wire and the current it needed to cut the foam properly. I used a power supply, whose original function I forgot, and a potentiometer to control the temperature of the nichrome wire.</p>             <p>                 With this machine, I was able to cut several sets of tiles of different sizes and shapes. After texturing and painting them, I was able to create 2 sets of modular tiles to create different battle maps and dungeons. I also used my 3D printer to print decorative elements and the figurines of my characters."
+        },
+        "sherbrooke": {
+            "article": "During my studies, I decided to spend a semester abroad during my 3rd year of engineering school. I was very interested in the program offered by the University of Sherbrooke in Canada because it offered a problem-based learning approach in their computer engineering department, a method I hadn't encountered elsewhere.</p>             <p>                 The focus of the semester was a microcontroller based on an <span>ARM Cortex M</span>. We were divided into groups of three, and each working session lasted 2 to 3 weeks with half of the time spent working autonomously.</p>             <p> We were given a problem and a specification document, and we had to develop a solution and present it along with our results at the end of the allocated time. Each session covered different concepts related to embedded systems. To develop solutions, we had to rely on the processor's <span>datasheet</span>, and when we encountered difficulties, we would consult our professor to gain new insights during the next class in order to make progress.            </p>             <p>                 During one session, for example, we had to create an assembly function to send messages via <span>UART</span> and use these functions in a C program. We were not allowed to rely on existing libraries and had to use the datasheet ourselves to determine which register to write to, which flag to rise, and so on.</p>             <p>     In a session on wireless communication, we had to code a program to create a Zigbee network among all the modules. </p>             <p>We also addressed other issues on occasion: <span>serial communication SPI and I2C</span>, <span>real-time programming</span> with the <span>FreeRTOS</span> real-time OS, and multithreading."
+        },
+        "stage": {
+            "article": "During my final-year internship in engineering school, I worked on the design and development of a mathematical model to express the performance of an <span>RFID</span> counting system using mathematical equations.              </p>             <p> We were three interns but we had to work independently. We held positions similar as research engineers and were tasked with producing detailed documentation on the project's progress (state of the art, specifications, architecture). Each of us was responsible for a different technology used for counting boxes in a storage warehouse. </p>         <p> After determining the environment in which the system would be deployed, I had to choose the components that make up the system. I decided to opt for the \"low-cost\" option with components that I am familiar with: an <span>Arduino</span> and an <span>Arduino RFID shield</span>. </p>             <p> I coded the software for the Arduino to drive the RFID module via SPI. I also coded a small program in C to communicate with the Arduino and compile the collected data into XML files. </p>             <p> I defined several test plans to collect as much data as possible on the system, with different configurations. In the end, I processed the data using <span>Python</span> and <span>MATLAB</span> to obtain a mathematical model of the system and graphical representations of its performance."
+        },
+        "unity": {
+            "article": "The internet is full of documentation and tutorials demonstrating how to use Unity, so I practiced by doing many small tests and following YouTube videos like those from \"Brackeys\".</p>             <p>Since I had a solid foundation as a developer, I could easily add game development-related concepts to my knowledge. My main limitation was my lack of skills in graphics and rendering. Fortunately, Unity's graphics part is simplified, so it didn't slow down my game development experiments too much.</p>             <p>These experiences with game development allowed me to use existing knowledge for other purposes. I was able to test ideas I had in mind, such as state machines, mechanics for platformers, or turn-based games. </p>             <p>The most complete game I was able to create from scratch is a 2D game where the player controls a little dog that has to perform tasks in a house. For this game, I tried to apply object-oriented programming concepts learned during my studies, including using design patterns like singleton or factory patterns."
+        }
     }
 }

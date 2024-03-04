@@ -36,30 +36,21 @@
 </head>
 
 <body>
+    <div id="body" style="display: none;">
     <nav id="nav-wrap">
             <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
         <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
         </ul>
     </nav>
 
     <section id="article">
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod5.titre"></h1>
-            <p>
-                Étant intéressé par les maisons connectées, j'ai voulu essayer d'intégrer ma cafetière dans un système
-                d'automatisation de mon logement.
-            </p>
-            <p>
-                J'ai d'abord choisi <span>Mosquitto</span> comme <span>broker MQTT</span> et je l'ai installé sur un <span>RaspberryPi</span>. J'ai ensuite
-                placé un <span>ESP-01</span> dans la cafetière, et j'allume et j'éteins la cafetière avec un <span>MOSFET</span>. Je contrôle
-                l'état de la cafetière grâce à des messages MQTT envoyé depuis la RaspberryPi. L'ESP met à jour le
-                statut de la cafetière avec des « publish » MQTT.
-            </p>
-            <p>
-                La prochaine étape serait de l'intégrer dans le système déjà existant de domotique dans mon logement,
-                mais ce n'est pas si facile et je n'ai pas réussi à trouver de solution pour le moment.
+            <p data-i18n="article.home.article">
             </p>
             <hr />
         </div>
@@ -114,7 +105,7 @@
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

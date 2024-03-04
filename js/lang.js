@@ -31,7 +31,7 @@ async function changeLanguage(lang){
 }
 
 window.onload = function(){
-    const userSavedLanguage = localStorage.getItem('language') || 'fr';
+    const userSavedLanguage = localStorage.getItem('language') || 'en';
     changeLanguage(userSavedLanguage);
     var paths = document.querySelectorAll('.st0');
 

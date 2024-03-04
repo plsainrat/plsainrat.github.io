@@ -36,61 +36,23 @@
 </head>
 
 <body>
+    <div id="body" style="display: none;">
     <nav id="nav-wrap">
         <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
         <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
 
         <ul id="nav" class="nav">
             <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
         </ul>
     </nav>
 
     <section id="article">
         <div class="row banner">
             <h1 data-i18n="portfolio.wrapper.mod2.titre"></h1>
-            <p>
-                Je traîne souvent sur des sites de hacker/maker tel que Hackster.io ou Hackaday ... Et j'ai constaté
-                comment les imprimantes 3D sont rapidement passées d'une technologie à la pointe à un hobby très
-                accessible avec des multiples applications. Lors du confinement, j'ai constaté que j'avais beaucoup plus
-                de temps libre et j'ai eu envie d'investir dans une imprimante 3D en kit! J'ai parcouru de nombreux
-                forums en quête de la bonne imprimante, pour au final me décider d'acheter la <span>Prusa I3 pro
-                    Bi</span> par
-                Geeetech. Je voulais commencer par une imprimante low-cost et en kit parce que j'étais plus intéressé
-                par le principe de l'impression 3D que par l'imprimante en elle-même. Je voulais une machine qui
-                fonctionne parce que je l'ai faite fonctionner et non parce que j'y ai mis le prix.
-
+            <p data-i18n="article.3d.article">
             </p>
-
-            <p>
-                Une fois que mon imprimante était venue à la vie et que j'avais imprimé mon premier benchy avec succès,
-                je me suis tourné vers les outils de CAD gratuits ou open source. J'ai donc appris à utiliser
-                <span>FreeCAD</span> et
-                <span>Fusion360</span> pour créer mes propres designs sans m'appuyer sur ce qui a été uploadé par la
-                communauté des
-                enthousiastes de l'impression 3D.
-
-            </p>
-
-            <p>
-
-                J'ai d'abord créé des objets du quotidien comme des accessoires d'étagère, une petite poupée japonaise,
-                une boite à savon, ou des fixations pour lampe.
-
-            </p>
-
-            <p>
-                Grace à ces premiers design, j'avais prit en main les outils et j'ai pu réaliser mes premiers projets!
-                J'ai entrepris de hacker ma manette sans fil. J'ai remplacé les 3 piles AA par une pile
-                <span>Li-ion</span>
-                rechargeable venant d'une batterie d'ordinateur portable mort.
-            </p>
-            <p>
-
-                J'ai également designé et imprimé un cadre pour un écran que j'ai créé à partir de l'écran d'un PC
-                portable mort. Le cadre, posé sur un pied imprimé aussi en 3D, peut passer d'une position classique
-                horizontale à une position verticale idéale pour le code!
-            </p>
-
             <hr />
         </div>
     </section>
@@ -166,7 +128,7 @@
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 

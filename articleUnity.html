@@ -36,108 +36,92 @@
 </head>
 
 <body>
-    <nav id="nav-wrap">
+    <div id="body" style="display: none;">
+        <nav id="nav-wrap">
             <a data-i18n="nav.mobil.show" class="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a data-i18n="nav.mobil.hide" class="mobile-btn" href="#" title="Hide navigation"></a>
-        <ul id="nav" class="nav">
-            <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
-        </ul>
-    </nav>
+            <ul id="nav" class="nav">
+                <li class="current"><a data-i18n="nav.home" href="index.html#portfolio"></a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('en')">[ EN</a></li>
+               <li><a class="smoothscroll" href="" onclick="changeLanguage('fr')">FR ]</a></li>
+            </ul>
+        </nav>
 
-    <section id="article">
-        <div class="row banner">
-            <h1 data-i18n="portfolio.wrapper.mod7.titre"></h1>
-            <p>
-                Internet ne manque pas de documentation et de tutoriel qui montre comment utiliser Unity, je me suis
-                donc entraîné en réalisant beaucoup de petits tests, et en suivant des vidéo Youtube comme celles de
-                "Brackeys".
-            </p>
-            <p>
-                Comme j’avais de solides bases de développeur, j’ai pu facilement ajouter à mes connaissances des
-                notions liées au game-dev. Ce qui me limitait surtout, c’est mes lacunes en graphismes et en Render.
-                Heureusement, la partie graphisme de Unity est très simplifiée donc cela ne m’a pas trop freiné mes
-                expérimentations de jeu vidéo.
-            </p>
-            <p>
+        <section id="article">
+            <div class="row banner">
+                <h1 data-i18n="portfolio.wrapper.mod7.titre"></h1>
+                <p data-i18n="article.unity.article">
 
-                Ces expériences avec le game-dev m’ont permis d’utiliser des connaissances que j’avais déjà à d’autres
-                fins. J’ai pu tester des idées que j’avais en tête comme des states machines, des mécanismes pour des
-                platformers ou des turnbases.
-            </p>
-            <p>
-                Le jeu le plus complet que j’ai pu réaliser à partir de zéro est un jeu en 2D dans lequel le joueur
-                incarne un petit chien qui doit réaliser des tâches dans une maison. Pour ce jeu j’ai essayé d’appliquer
-                des notions de programmation orientée objet apprises durant mes études, notamment en utilisant des patrons
-                de conception comme celui du singleton ou de la factory.
-            </p>
-            <hr />
-        </div>
-    </section>
+                </p>
+                <hr />
+            </div>
+        </section>
 
-    <section id="gallery">
-        <div id="images-wrapper">
-            <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg1.jpg"><img
-                    src="ArticlePortfolio/Unity/img/Pugg1.jpg" /></a>
-            <video width=100% height=auto controls>
-                <source src="ArticlePortfolio/Unity/img/Pugg2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg3.jpg"><img
-                    src="ArticlePortfolio/Unity/img/Pugg3.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg4.jpg"><img
-                    src="ArticlePortfolio/Unity/img/Pugg4.jpg" /></a>
-            <video width=100% height=auto controls>
-                <source src="ArticlePortfolio/Unity/img/Spike.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg5.jpg"><img
-                    src="ArticlePortfolio/Unity/img/Pugg5.jpg" /></a>
-            <a target="_blank" href="ArticlePortfolio/Unity/img/TurnBase.jpg"><img
-                    src="ArticlePortfolio/Unity/img/TurnBase.jpg" /></a>
-        </div>
-    </section>
+        <section id="gallery">
+            <div id="images-wrapper">
+                <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg1.jpg"><img
+                        src="ArticlePortfolio/Unity/img/Pugg1.jpg" /></a>
+                <video width=100% height=auto controls>
+                    <source src="ArticlePortfolio/Unity/img/Pugg2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg3.jpg"><img
+                        src="ArticlePortfolio/Unity/img/Pugg3.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg4.jpg"><img
+                        src="ArticlePortfolio/Unity/img/Pugg4.jpg" /></a>
+                <video width=100% height=auto controls>
+                    <source src="ArticlePortfolio/Unity/img/Spike.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a target="_blank" href="ArticlePortfolio/Unity/img/Pugg5.jpg"><img
+                        src="ArticlePortfolio/Unity/img/Pugg5.jpg" /></a>
+                <a target="_blank" href="ArticlePortfolio/Unity/img/TurnBase.jpg"><img
+                        src="ArticlePortfolio/Unity/img/TurnBase.jpg" /></a>
+            </div>
+        </section>
 
-    <footer>
+        <footer>
 
-        <div class="row">
+            <div class="row">
 
-            <div class="twelve columns">
+                <div class="twelve columns">
 
 
-                <ul class="copyright">
-                    <li>&copy; Copyright 2014 CeeVee</li>
-                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
-                    </li>
-                </ul>
+                    <ul class="copyright">
+                        <li>&copy; Copyright 2014 CeeVee</li>
+                        <li>Design by <a href="http://www.styleshout.com/" title="Styleshout"
+                                target="_blank">Styleshout</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
+                            class="icon-up-open"></i></a>
+                </div>
 
             </div>
 
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#article"><i
-                        class="icon-up-open"></i></a>
-            </div>
 
-        </div>
+        </footer> <!-- Footer End-->
 
-
-    </footer> <!-- Footer End-->
-
-    <!-- Java Script
+        <!-- Java Script
    ================================================== -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/lang.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/magnific-popup.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/lang.js"></script>
 
     </div>
     <script type="text/javascript">
         $(window).ready(function () {
-            $('#body').fadeIn();
+            $('#body').fadeIn(1000);
         });
     </script>
 
