@@ -513,15 +513,15 @@ ul#nav li.current a {
 
 
 .anglais {
-   width: 99%;
+   width: 80%;
    -moz-animation: anglais 2s ease;
    -webkit-animation: anglais 2s ease;
 }
 
 .francais {
    width: 99%;
-   -moz-animation: anglais 2s ease;
-   -webkit-animation: anglais 2s ease;
+   -moz-animation: francais 2s ease;
+   -webkit-animation: francais 2s ease;
 }
 
 
@@ -572,10 +572,19 @@ ul#nav li.current a {
    }
 
    100% {
-      width: 99%;
+      width: 80%;
    }
 }
 
+@-moz-keyframes francais {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 99%;
+   }
+}
 
 @-webkit-keyframes CCpp {
    0% {
@@ -618,6 +627,16 @@ ul#nav li.current a {
 }
 
 @-webkit-keyframes anglais {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 80%;
+   }
+}
+
+@-webkit-keyframes francais {
    0% {
       width: 0px;
    }
