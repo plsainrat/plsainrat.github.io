@@ -12,7 +12,7 @@
     },
     "banner-text": {
         "h1": "I am Paul Sainrat",
-        "h3": "I am an <span>engineer</span> with a background in <span>embeded software</span>. Passionate about <span>electronics</span> and <span>computer science</span>,  I love to explore differents tools and developing news skills. On this website, I detail some of my <a class=\"smoothscroll\" href=\"#portfolio\"> personal projects</a>, as well as my <a class=\"smoothscroll\" href=\"#resume\"> professional skills and experiences </a>."
+        "h3": "I am an <span>engineer</span> with a background in <span>embedded software</span>. Passionate about <span>electronics</span> and <span>computer science</span>,  I love to explore differents tools and developing news skills. On this website, I detail some of my <a class=\"smoothscroll\" href=\"#portfolio\"> personal projects</a>, as well as my <a class=\"smoothscroll\" href=\"#resume\"> professional skills and experiences </a>."
     },
     "about": {
         "h2-titre": "About me",
